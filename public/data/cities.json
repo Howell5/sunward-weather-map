@@ -1,0 +1,5176 @@
+{
+  "version": "2026-08-07",
+  "generatedAt": "2026-08-07T11:56:47.119Z",
+  "source": "https://geo.datav.aliyun.com/areas_v3/bound",
+  "count": 370,
+  "cities": [
+    {
+      "id": "110000",
+      "adcode": "110000",
+      "name": "北京市",
+      "shortName": "北京",
+      "province": "北京市",
+      "longitude": 116.405285,
+      "latitude": 39.904989,
+      "importance": 100,
+      "aliases": [
+        "北京市",
+        "北京"
+      ]
+    },
+    {
+      "id": "120000",
+      "adcode": "120000",
+      "name": "天津市",
+      "shortName": "天津",
+      "province": "天津市",
+      "longitude": 117.190182,
+      "latitude": 39.125596,
+      "importance": 100,
+      "aliases": [
+        "天津市",
+        "天津"
+      ]
+    },
+    {
+      "id": "130100",
+      "adcode": "130100",
+      "name": "石家庄市",
+      "shortName": "石家庄",
+      "province": "河北省",
+      "longitude": 114.502461,
+      "latitude": 38.045474,
+      "importance": 90,
+      "aliases": [
+        "石家庄市",
+        "石家庄"
+      ]
+    },
+    {
+      "id": "130200",
+      "adcode": "130200",
+      "name": "唐山市",
+      "shortName": "唐山",
+      "province": "河北省",
+      "longitude": 118.175393,
+      "latitude": 39.635113,
+      "importance": 20,
+      "aliases": [
+        "唐山市",
+        "唐山"
+      ]
+    },
+    {
+      "id": "130300",
+      "adcode": "130300",
+      "name": "秦皇岛市",
+      "shortName": "秦皇岛",
+      "province": "河北省",
+      "longitude": 119.586579,
+      "latitude": 39.942531,
+      "importance": 20,
+      "aliases": [
+        "秦皇岛市",
+        "秦皇岛"
+      ]
+    },
+    {
+      "id": "130400",
+      "adcode": "130400",
+      "name": "邯郸市",
+      "shortName": "邯郸",
+      "province": "河北省",
+      "longitude": 114.490686,
+      "latitude": 36.612273,
+      "importance": 20,
+      "aliases": [
+        "邯郸市",
+        "邯郸"
+      ]
+    },
+    {
+      "id": "130500",
+      "adcode": "130500",
+      "name": "邢台市",
+      "shortName": "邢台",
+      "province": "河北省",
+      "longitude": 114.508851,
+      "latitude": 37.0682,
+      "importance": 20,
+      "aliases": [
+        "邢台市",
+        "邢台"
+      ]
+    },
+    {
+      "id": "130600",
+      "adcode": "130600",
+      "name": "保定市",
+      "shortName": "保定",
+      "province": "河北省",
+      "longitude": 115.482331,
+      "latitude": 38.867657,
+      "importance": 20,
+      "aliases": [
+        "保定市",
+        "保定"
+      ]
+    },
+    {
+      "id": "130700",
+      "adcode": "130700",
+      "name": "张家口市",
+      "shortName": "张家口",
+      "province": "河北省",
+      "longitude": 114.884091,
+      "latitude": 40.811901,
+      "importance": 20,
+      "aliases": [
+        "张家口市",
+        "张家口"
+      ]
+    },
+    {
+      "id": "130800",
+      "adcode": "130800",
+      "name": "承德市",
+      "shortName": "承德",
+      "province": "河北省",
+      "longitude": 117.939152,
+      "latitude": 40.976204,
+      "importance": 20,
+      "aliases": [
+        "承德市",
+        "承德"
+      ]
+    },
+    {
+      "id": "130900",
+      "adcode": "130900",
+      "name": "沧州市",
+      "shortName": "沧州",
+      "province": "河北省",
+      "longitude": 116.857461,
+      "latitude": 38.310582,
+      "importance": 20,
+      "aliases": [
+        "沧州市",
+        "沧州"
+      ]
+    },
+    {
+      "id": "131000",
+      "adcode": "131000",
+      "name": "廊坊市",
+      "shortName": "廊坊",
+      "province": "河北省",
+      "longitude": 116.704441,
+      "latitude": 39.523927,
+      "importance": 20,
+      "aliases": [
+        "廊坊市",
+        "廊坊"
+      ]
+    },
+    {
+      "id": "131100",
+      "adcode": "131100",
+      "name": "衡水市",
+      "shortName": "衡水",
+      "province": "河北省",
+      "longitude": 115.665993,
+      "latitude": 37.735097,
+      "importance": 20,
+      "aliases": [
+        "衡水市",
+        "衡水"
+      ]
+    },
+    {
+      "id": "140100",
+      "adcode": "140100",
+      "name": "太原市",
+      "shortName": "太原",
+      "province": "山西省",
+      "longitude": 112.549248,
+      "latitude": 37.857014,
+      "importance": 90,
+      "aliases": [
+        "太原市",
+        "太原"
+      ]
+    },
+    {
+      "id": "140200",
+      "adcode": "140200",
+      "name": "大同市",
+      "shortName": "大同",
+      "province": "山西省",
+      "longitude": 113.295259,
+      "latitude": 40.09031,
+      "importance": 20,
+      "aliases": [
+        "大同市",
+        "大同"
+      ]
+    },
+    {
+      "id": "140300",
+      "adcode": "140300",
+      "name": "阳泉市",
+      "shortName": "阳泉",
+      "province": "山西省",
+      "longitude": 113.583285,
+      "latitude": 37.861188,
+      "importance": 20,
+      "aliases": [
+        "阳泉市",
+        "阳泉"
+      ]
+    },
+    {
+      "id": "140400",
+      "adcode": "140400",
+      "name": "长治市",
+      "shortName": "长治",
+      "province": "山西省",
+      "longitude": 113.113556,
+      "latitude": 36.191112,
+      "importance": 20,
+      "aliases": [
+        "长治市",
+        "长治"
+      ]
+    },
+    {
+      "id": "140500",
+      "adcode": "140500",
+      "name": "晋城市",
+      "shortName": "晋城",
+      "province": "山西省",
+      "longitude": 112.851274,
+      "latitude": 35.497553,
+      "importance": 20,
+      "aliases": [
+        "晋城市",
+        "晋城"
+      ]
+    },
+    {
+      "id": "140600",
+      "adcode": "140600",
+      "name": "朔州市",
+      "shortName": "朔州",
+      "province": "山西省",
+      "longitude": 112.433387,
+      "latitude": 39.331261,
+      "importance": 20,
+      "aliases": [
+        "朔州市",
+        "朔州"
+      ]
+    },
+    {
+      "id": "140700",
+      "adcode": "140700",
+      "name": "晋中市",
+      "shortName": "晋中",
+      "province": "山西省",
+      "longitude": 112.736465,
+      "latitude": 37.696495,
+      "importance": 20,
+      "aliases": [
+        "晋中市",
+        "晋中"
+      ]
+    },
+    {
+      "id": "140800",
+      "adcode": "140800",
+      "name": "运城市",
+      "shortName": "运城",
+      "province": "山西省",
+      "longitude": 111.003957,
+      "latitude": 35.022778,
+      "importance": 20,
+      "aliases": [
+        "运城市",
+        "运城"
+      ]
+    },
+    {
+      "id": "140900",
+      "adcode": "140900",
+      "name": "忻州市",
+      "shortName": "忻州",
+      "province": "山西省",
+      "longitude": 112.733538,
+      "latitude": 38.41769,
+      "importance": 20,
+      "aliases": [
+        "忻州市",
+        "忻州"
+      ]
+    },
+    {
+      "id": "141000",
+      "adcode": "141000",
+      "name": "临汾市",
+      "shortName": "临汾",
+      "province": "山西省",
+      "longitude": 111.517973,
+      "latitude": 36.08415,
+      "importance": 20,
+      "aliases": [
+        "临汾市",
+        "临汾"
+      ]
+    },
+    {
+      "id": "141100",
+      "adcode": "141100",
+      "name": "吕梁市",
+      "shortName": "吕梁",
+      "province": "山西省",
+      "longitude": 111.134335,
+      "latitude": 37.524366,
+      "importance": 20,
+      "aliases": [
+        "吕梁市",
+        "吕梁"
+      ]
+    },
+    {
+      "id": "150100",
+      "adcode": "150100",
+      "name": "呼和浩特市",
+      "shortName": "呼和浩特",
+      "province": "内蒙古自治区",
+      "longitude": 111.670801,
+      "latitude": 40.818311,
+      "importance": 90,
+      "aliases": [
+        "呼和浩特市",
+        "呼和浩特"
+      ]
+    },
+    {
+      "id": "150200",
+      "adcode": "150200",
+      "name": "包头市",
+      "shortName": "包头",
+      "province": "内蒙古自治区",
+      "longitude": 109.840405,
+      "latitude": 40.658168,
+      "importance": 20,
+      "aliases": [
+        "包头市",
+        "包头"
+      ]
+    },
+    {
+      "id": "150300",
+      "adcode": "150300",
+      "name": "乌海市",
+      "shortName": "乌海",
+      "province": "内蒙古自治区",
+      "longitude": 106.825563,
+      "latitude": 39.673734,
+      "importance": 20,
+      "aliases": [
+        "乌海市",
+        "乌海"
+      ]
+    },
+    {
+      "id": "150400",
+      "adcode": "150400",
+      "name": "赤峰市",
+      "shortName": "赤峰",
+      "province": "内蒙古自治区",
+      "longitude": 118.956806,
+      "latitude": 42.275317,
+      "importance": 20,
+      "aliases": [
+        "赤峰市",
+        "赤峰"
+      ]
+    },
+    {
+      "id": "150500",
+      "adcode": "150500",
+      "name": "通辽市",
+      "shortName": "通辽",
+      "province": "内蒙古自治区",
+      "longitude": 122.263119,
+      "latitude": 43.617429,
+      "importance": 20,
+      "aliases": [
+        "通辽市",
+        "通辽"
+      ]
+    },
+    {
+      "id": "150600",
+      "adcode": "150600",
+      "name": "鄂尔多斯市",
+      "shortName": "鄂尔多斯",
+      "province": "内蒙古自治区",
+      "longitude": 109.99029,
+      "latitude": 39.817179,
+      "importance": 20,
+      "aliases": [
+        "鄂尔多斯市",
+        "鄂尔多斯"
+      ]
+    },
+    {
+      "id": "150700",
+      "adcode": "150700",
+      "name": "呼伦贝尔市",
+      "shortName": "呼伦贝尔",
+      "province": "内蒙古自治区",
+      "longitude": 119.758168,
+      "latitude": 49.215333,
+      "importance": 20,
+      "aliases": [
+        "呼伦贝尔市",
+        "呼伦贝尔"
+      ]
+    },
+    {
+      "id": "150800",
+      "adcode": "150800",
+      "name": "巴彦淖尔市",
+      "shortName": "巴彦淖尔",
+      "province": "内蒙古自治区",
+      "longitude": 107.416959,
+      "latitude": 40.757402,
+      "importance": 20,
+      "aliases": [
+        "巴彦淖尔市",
+        "巴彦淖尔"
+      ]
+    },
+    {
+      "id": "150900",
+      "adcode": "150900",
+      "name": "乌兰察布市",
+      "shortName": "乌兰察布",
+      "province": "内蒙古自治区",
+      "longitude": 113.114543,
+      "latitude": 41.034126,
+      "importance": 20,
+      "aliases": [
+        "乌兰察布市",
+        "乌兰察布"
+      ]
+    },
+    {
+      "id": "152200",
+      "adcode": "152200",
+      "name": "兴安盟",
+      "shortName": "兴安",
+      "province": "内蒙古自治区",
+      "longitude": 122.070317,
+      "latitude": 46.076268,
+      "importance": 20,
+      "aliases": [
+        "兴安盟",
+        "兴安"
+      ]
+    },
+    {
+      "id": "152500",
+      "adcode": "152500",
+      "name": "锡林郭勒盟",
+      "shortName": "锡林郭勒",
+      "province": "内蒙古自治区",
+      "longitude": 116.090996,
+      "latitude": 43.944018,
+      "importance": 20,
+      "aliases": [
+        "锡林郭勒盟",
+        "锡林郭勒"
+      ]
+    },
+    {
+      "id": "152900",
+      "adcode": "152900",
+      "name": "阿拉善盟",
+      "shortName": "阿拉善",
+      "province": "内蒙古自治区",
+      "longitude": 105.706422,
+      "latitude": 38.844814,
+      "importance": 20,
+      "aliases": [
+        "阿拉善盟",
+        "阿拉善"
+      ]
+    },
+    {
+      "id": "210100",
+      "adcode": "210100",
+      "name": "沈阳市",
+      "shortName": "沈阳",
+      "province": "辽宁省",
+      "longitude": 123.429096,
+      "latitude": 41.796767,
+      "importance": 90,
+      "aliases": [
+        "沈阳市",
+        "沈阳"
+      ]
+    },
+    {
+      "id": "210200",
+      "adcode": "210200",
+      "name": "大连市",
+      "shortName": "大连",
+      "province": "辽宁省",
+      "longitude": 121.618622,
+      "latitude": 38.91459,
+      "importance": 20,
+      "aliases": [
+        "大连市",
+        "大连"
+      ]
+    },
+    {
+      "id": "210300",
+      "adcode": "210300",
+      "name": "鞍山市",
+      "shortName": "鞍山",
+      "province": "辽宁省",
+      "longitude": 122.995632,
+      "latitude": 41.110626,
+      "importance": 20,
+      "aliases": [
+        "鞍山市",
+        "鞍山"
+      ]
+    },
+    {
+      "id": "210400",
+      "adcode": "210400",
+      "name": "抚顺市",
+      "shortName": "抚顺",
+      "province": "辽宁省",
+      "longitude": 123.921109,
+      "latitude": 41.875956,
+      "importance": 20,
+      "aliases": [
+        "抚顺市",
+        "抚顺"
+      ]
+    },
+    {
+      "id": "210500",
+      "adcode": "210500",
+      "name": "本溪市",
+      "shortName": "本溪",
+      "province": "辽宁省",
+      "longitude": 123.770519,
+      "latitude": 41.297909,
+      "importance": 20,
+      "aliases": [
+        "本溪市",
+        "本溪"
+      ]
+    },
+    {
+      "id": "210600",
+      "adcode": "210600",
+      "name": "丹东市",
+      "shortName": "丹东",
+      "province": "辽宁省",
+      "longitude": 124.383044,
+      "latitude": 40.124296,
+      "importance": 20,
+      "aliases": [
+        "丹东市",
+        "丹东"
+      ]
+    },
+    {
+      "id": "210700",
+      "adcode": "210700",
+      "name": "锦州市",
+      "shortName": "锦州",
+      "province": "辽宁省",
+      "longitude": 121.135742,
+      "latitude": 41.119269,
+      "importance": 20,
+      "aliases": [
+        "锦州市",
+        "锦州"
+      ]
+    },
+    {
+      "id": "210800",
+      "adcode": "210800",
+      "name": "营口市",
+      "shortName": "营口",
+      "province": "辽宁省",
+      "longitude": 122.235151,
+      "latitude": 40.667432,
+      "importance": 20,
+      "aliases": [
+        "营口市",
+        "营口"
+      ]
+    },
+    {
+      "id": "210900",
+      "adcode": "210900",
+      "name": "阜新市",
+      "shortName": "阜新",
+      "province": "辽宁省",
+      "longitude": 121.648962,
+      "latitude": 42.011796,
+      "importance": 20,
+      "aliases": [
+        "阜新市",
+        "阜新"
+      ]
+    },
+    {
+      "id": "211000",
+      "adcode": "211000",
+      "name": "辽阳市",
+      "shortName": "辽阳",
+      "province": "辽宁省",
+      "longitude": 123.18152,
+      "latitude": 41.269402,
+      "importance": 20,
+      "aliases": [
+        "辽阳市",
+        "辽阳"
+      ]
+    },
+    {
+      "id": "211100",
+      "adcode": "211100",
+      "name": "盘锦市",
+      "shortName": "盘锦",
+      "province": "辽宁省",
+      "longitude": 122.06957,
+      "latitude": 41.124484,
+      "importance": 20,
+      "aliases": [
+        "盘锦市",
+        "盘锦"
+      ]
+    },
+    {
+      "id": "211200",
+      "adcode": "211200",
+      "name": "铁岭市",
+      "shortName": "铁岭",
+      "province": "辽宁省",
+      "longitude": 123.844279,
+      "latitude": 42.290585,
+      "importance": 20,
+      "aliases": [
+        "铁岭市",
+        "铁岭"
+      ]
+    },
+    {
+      "id": "211300",
+      "adcode": "211300",
+      "name": "朝阳市",
+      "shortName": "朝阳",
+      "province": "辽宁省",
+      "longitude": 120.451176,
+      "latitude": 41.576758,
+      "importance": 20,
+      "aliases": [
+        "朝阳市",
+        "朝阳"
+      ]
+    },
+    {
+      "id": "211400",
+      "adcode": "211400",
+      "name": "葫芦岛市",
+      "shortName": "葫芦岛",
+      "province": "辽宁省",
+      "longitude": 120.856394,
+      "latitude": 40.755572,
+      "importance": 20,
+      "aliases": [
+        "葫芦岛市",
+        "葫芦岛"
+      ]
+    },
+    {
+      "id": "220100",
+      "adcode": "220100",
+      "name": "长春市",
+      "shortName": "长春",
+      "province": "吉林省",
+      "longitude": 125.3245,
+      "latitude": 43.886841,
+      "importance": 90,
+      "aliases": [
+        "长春市",
+        "长春"
+      ]
+    },
+    {
+      "id": "220200",
+      "adcode": "220200",
+      "name": "吉林市",
+      "shortName": "吉林",
+      "province": "吉林省",
+      "longitude": 126.55302,
+      "latitude": 43.843577,
+      "importance": 20,
+      "aliases": [
+        "吉林市",
+        "吉林"
+      ]
+    },
+    {
+      "id": "220300",
+      "adcode": "220300",
+      "name": "四平市",
+      "shortName": "四平",
+      "province": "吉林省",
+      "longitude": 124.370785,
+      "latitude": 43.170344,
+      "importance": 20,
+      "aliases": [
+        "四平市",
+        "四平"
+      ]
+    },
+    {
+      "id": "220400",
+      "adcode": "220400",
+      "name": "辽源市",
+      "shortName": "辽源",
+      "province": "吉林省",
+      "longitude": 125.145349,
+      "latitude": 42.902692,
+      "importance": 20,
+      "aliases": [
+        "辽源市",
+        "辽源"
+      ]
+    },
+    {
+      "id": "220500",
+      "adcode": "220500",
+      "name": "通化市",
+      "shortName": "通化",
+      "province": "吉林省",
+      "longitude": 125.936501,
+      "latitude": 41.721177,
+      "importance": 20,
+      "aliases": [
+        "通化市",
+        "通化"
+      ]
+    },
+    {
+      "id": "220600",
+      "adcode": "220600",
+      "name": "白山市",
+      "shortName": "白山",
+      "province": "吉林省",
+      "longitude": 126.427839,
+      "latitude": 41.942505,
+      "importance": 20,
+      "aliases": [
+        "白山市",
+        "白山"
+      ]
+    },
+    {
+      "id": "220700",
+      "adcode": "220700",
+      "name": "松原市",
+      "shortName": "松原",
+      "province": "吉林省",
+      "longitude": 124.823608,
+      "latitude": 45.118243,
+      "importance": 20,
+      "aliases": [
+        "松原市",
+        "松原"
+      ]
+    },
+    {
+      "id": "220800",
+      "adcode": "220800",
+      "name": "白城市",
+      "shortName": "白城",
+      "province": "吉林省",
+      "longitude": 122.841114,
+      "latitude": 45.619026,
+      "importance": 20,
+      "aliases": [
+        "白城市",
+        "白城"
+      ]
+    },
+    {
+      "id": "222400",
+      "adcode": "222400",
+      "name": "延边朝鲜族自治州",
+      "shortName": "延边朝鲜族",
+      "province": "吉林省",
+      "longitude": 129.513228,
+      "latitude": 42.904823,
+      "importance": 20,
+      "aliases": [
+        "延边朝鲜族自治州",
+        "延边朝鲜族"
+      ]
+    },
+    {
+      "id": "230100",
+      "adcode": "230100",
+      "name": "哈尔滨市",
+      "shortName": "哈尔滨",
+      "province": "黑龙江省",
+      "longitude": 126.642464,
+      "latitude": 45.756967,
+      "importance": 90,
+      "aliases": [
+        "哈尔滨市",
+        "哈尔滨"
+      ]
+    },
+    {
+      "id": "230200",
+      "adcode": "230200",
+      "name": "齐齐哈尔市",
+      "shortName": "齐齐哈尔",
+      "province": "黑龙江省",
+      "longitude": 123.95792,
+      "latitude": 47.342081,
+      "importance": 20,
+      "aliases": [
+        "齐齐哈尔市",
+        "齐齐哈尔"
+      ]
+    },
+    {
+      "id": "230300",
+      "adcode": "230300",
+      "name": "鸡西市",
+      "shortName": "鸡西",
+      "province": "黑龙江省",
+      "longitude": 130.975966,
+      "latitude": 45.300046,
+      "importance": 20,
+      "aliases": [
+        "鸡西市",
+        "鸡西"
+      ]
+    },
+    {
+      "id": "230400",
+      "adcode": "230400",
+      "name": "鹤岗市",
+      "shortName": "鹤岗",
+      "province": "黑龙江省",
+      "longitude": 130.277487,
+      "latitude": 47.332085,
+      "importance": 20,
+      "aliases": [
+        "鹤岗市",
+        "鹤岗"
+      ]
+    },
+    {
+      "id": "230500",
+      "adcode": "230500",
+      "name": "双鸭山市",
+      "shortName": "双鸭山",
+      "province": "黑龙江省",
+      "longitude": 131.157304,
+      "latitude": 46.643442,
+      "importance": 20,
+      "aliases": [
+        "双鸭山市",
+        "双鸭山"
+      ]
+    },
+    {
+      "id": "230600",
+      "adcode": "230600",
+      "name": "大庆市",
+      "shortName": "大庆",
+      "province": "黑龙江省",
+      "longitude": 125.11272,
+      "latitude": 46.590734,
+      "importance": 20,
+      "aliases": [
+        "大庆市",
+        "大庆"
+      ]
+    },
+    {
+      "id": "230700",
+      "adcode": "230700",
+      "name": "伊春市",
+      "shortName": "伊春",
+      "province": "黑龙江省",
+      "longitude": 128.899396,
+      "latitude": 47.724775,
+      "importance": 20,
+      "aliases": [
+        "伊春市",
+        "伊春"
+      ]
+    },
+    {
+      "id": "230800",
+      "adcode": "230800",
+      "name": "佳木斯市",
+      "shortName": "佳木斯",
+      "province": "黑龙江省",
+      "longitude": 130.361634,
+      "latitude": 46.809606,
+      "importance": 20,
+      "aliases": [
+        "佳木斯市",
+        "佳木斯"
+      ]
+    },
+    {
+      "id": "230900",
+      "adcode": "230900",
+      "name": "七台河市",
+      "shortName": "七台河",
+      "province": "黑龙江省",
+      "longitude": 131.015584,
+      "latitude": 45.771266,
+      "importance": 20,
+      "aliases": [
+        "七台河市",
+        "七台河"
+      ]
+    },
+    {
+      "id": "231000",
+      "adcode": "231000",
+      "name": "牡丹江市",
+      "shortName": "牡丹江",
+      "province": "黑龙江省",
+      "longitude": 129.618602,
+      "latitude": 44.582962,
+      "importance": 20,
+      "aliases": [
+        "牡丹江市",
+        "牡丹江"
+      ]
+    },
+    {
+      "id": "231100",
+      "adcode": "231100",
+      "name": "黑河市",
+      "shortName": "黑河",
+      "province": "黑龙江省",
+      "longitude": 127.499023,
+      "latitude": 50.249585,
+      "importance": 20,
+      "aliases": [
+        "黑河市",
+        "黑河"
+      ]
+    },
+    {
+      "id": "231200",
+      "adcode": "231200",
+      "name": "绥化市",
+      "shortName": "绥化",
+      "province": "黑龙江省",
+      "longitude": 126.99293,
+      "latitude": 46.637393,
+      "importance": 20,
+      "aliases": [
+        "绥化市",
+        "绥化"
+      ]
+    },
+    {
+      "id": "232700",
+      "adcode": "232700",
+      "name": "大兴安岭地区",
+      "shortName": "大兴安岭",
+      "province": "黑龙江省",
+      "longitude": 124.711526,
+      "latitude": 52.335262,
+      "importance": 20,
+      "aliases": [
+        "大兴安岭地区",
+        "大兴安岭"
+      ]
+    },
+    {
+      "id": "310000",
+      "adcode": "310000",
+      "name": "上海市",
+      "shortName": "上海",
+      "province": "上海市",
+      "longitude": 121.472644,
+      "latitude": 31.231706,
+      "importance": 100,
+      "aliases": [
+        "上海市",
+        "上海"
+      ]
+    },
+    {
+      "id": "320100",
+      "adcode": "320100",
+      "name": "南京市",
+      "shortName": "南京",
+      "province": "江苏省",
+      "longitude": 118.767413,
+      "latitude": 32.041544,
+      "importance": 90,
+      "aliases": [
+        "南京市",
+        "南京"
+      ]
+    },
+    {
+      "id": "320200",
+      "adcode": "320200",
+      "name": "无锡市",
+      "shortName": "无锡",
+      "province": "江苏省",
+      "longitude": 120.301663,
+      "latitude": 31.574729,
+      "importance": 20,
+      "aliases": [
+        "无锡市",
+        "无锡"
+      ]
+    },
+    {
+      "id": "320300",
+      "adcode": "320300",
+      "name": "徐州市",
+      "shortName": "徐州",
+      "province": "江苏省",
+      "longitude": 117.184811,
+      "latitude": 34.261792,
+      "importance": 20,
+      "aliases": [
+        "徐州市",
+        "徐州"
+      ]
+    },
+    {
+      "id": "320400",
+      "adcode": "320400",
+      "name": "常州市",
+      "shortName": "常州",
+      "province": "江苏省",
+      "longitude": 119.946973,
+      "latitude": 31.772752,
+      "importance": 20,
+      "aliases": [
+        "常州市",
+        "常州"
+      ]
+    },
+    {
+      "id": "320500",
+      "adcode": "320500",
+      "name": "苏州市",
+      "shortName": "苏州",
+      "province": "江苏省",
+      "longitude": 120.619585,
+      "latitude": 31.299379,
+      "importance": 20,
+      "aliases": [
+        "苏州市",
+        "苏州"
+      ]
+    },
+    {
+      "id": "320600",
+      "adcode": "320600",
+      "name": "南通市",
+      "shortName": "南通",
+      "province": "江苏省",
+      "longitude": 120.864608,
+      "latitude": 32.016212,
+      "importance": 20,
+      "aliases": [
+        "南通市",
+        "南通"
+      ]
+    },
+    {
+      "id": "320700",
+      "adcode": "320700",
+      "name": "连云港市",
+      "shortName": "连云港",
+      "province": "江苏省",
+      "longitude": 119.178821,
+      "latitude": 34.600018,
+      "importance": 20,
+      "aliases": [
+        "连云港市",
+        "连云港"
+      ]
+    },
+    {
+      "id": "320800",
+      "adcode": "320800",
+      "name": "淮安市",
+      "shortName": "淮安",
+      "province": "江苏省",
+      "longitude": 119.021265,
+      "latitude": 33.597506,
+      "importance": 20,
+      "aliases": [
+        "淮安市",
+        "淮安"
+      ]
+    },
+    {
+      "id": "320900",
+      "adcode": "320900",
+      "name": "盐城市",
+      "shortName": "盐城",
+      "province": "江苏省",
+      "longitude": 120.139998,
+      "latitude": 33.377631,
+      "importance": 20,
+      "aliases": [
+        "盐城市",
+        "盐城"
+      ]
+    },
+    {
+      "id": "321000",
+      "adcode": "321000",
+      "name": "扬州市",
+      "shortName": "扬州",
+      "province": "江苏省",
+      "longitude": 119.421003,
+      "latitude": 32.393159,
+      "importance": 20,
+      "aliases": [
+        "扬州市",
+        "扬州"
+      ]
+    },
+    {
+      "id": "321100",
+      "adcode": "321100",
+      "name": "镇江市",
+      "shortName": "镇江",
+      "province": "江苏省",
+      "longitude": 119.452753,
+      "latitude": 32.204402,
+      "importance": 20,
+      "aliases": [
+        "镇江市",
+        "镇江"
+      ]
+    },
+    {
+      "id": "321200",
+      "adcode": "321200",
+      "name": "泰州市",
+      "shortName": "泰州",
+      "province": "江苏省",
+      "longitude": 119.915176,
+      "latitude": 32.484882,
+      "importance": 20,
+      "aliases": [
+        "泰州市",
+        "泰州"
+      ]
+    },
+    {
+      "id": "321300",
+      "adcode": "321300",
+      "name": "宿迁市",
+      "shortName": "宿迁",
+      "province": "江苏省",
+      "longitude": 118.275162,
+      "latitude": 33.963008,
+      "importance": 20,
+      "aliases": [
+        "宿迁市",
+        "宿迁"
+      ]
+    },
+    {
+      "id": "330100",
+      "adcode": "330100",
+      "name": "杭州市",
+      "shortName": "杭州",
+      "province": "浙江省",
+      "longitude": 120.153576,
+      "latitude": 30.287459,
+      "importance": 90,
+      "aliases": [
+        "杭州市",
+        "杭州"
+      ]
+    },
+    {
+      "id": "330200",
+      "adcode": "330200",
+      "name": "宁波市",
+      "shortName": "宁波",
+      "province": "浙江省",
+      "longitude": 121.549792,
+      "latitude": 29.868388,
+      "importance": 20,
+      "aliases": [
+        "宁波市",
+        "宁波"
+      ]
+    },
+    {
+      "id": "330300",
+      "adcode": "330300",
+      "name": "温州市",
+      "shortName": "温州",
+      "province": "浙江省",
+      "longitude": 120.672111,
+      "latitude": 28.000575,
+      "importance": 20,
+      "aliases": [
+        "温州市",
+        "温州"
+      ]
+    },
+    {
+      "id": "330400",
+      "adcode": "330400",
+      "name": "嘉兴市",
+      "shortName": "嘉兴",
+      "province": "浙江省",
+      "longitude": 120.750865,
+      "latitude": 30.762653,
+      "importance": 20,
+      "aliases": [
+        "嘉兴市",
+        "嘉兴"
+      ]
+    },
+    {
+      "id": "330500",
+      "adcode": "330500",
+      "name": "湖州市",
+      "shortName": "湖州",
+      "province": "浙江省",
+      "longitude": 120.102398,
+      "latitude": 30.867198,
+      "importance": 20,
+      "aliases": [
+        "湖州市",
+        "湖州"
+      ]
+    },
+    {
+      "id": "330600",
+      "adcode": "330600",
+      "name": "绍兴市",
+      "shortName": "绍兴",
+      "province": "浙江省",
+      "longitude": 120.582112,
+      "latitude": 29.997117,
+      "importance": 20,
+      "aliases": [
+        "绍兴市",
+        "绍兴"
+      ]
+    },
+    {
+      "id": "330700",
+      "adcode": "330700",
+      "name": "金华市",
+      "shortName": "金华",
+      "province": "浙江省",
+      "longitude": 119.649506,
+      "latitude": 29.089524,
+      "importance": 20,
+      "aliases": [
+        "金华市",
+        "金华"
+      ]
+    },
+    {
+      "id": "330800",
+      "adcode": "330800",
+      "name": "衢州市",
+      "shortName": "衢州",
+      "province": "浙江省",
+      "longitude": 118.87263,
+      "latitude": 28.941708,
+      "importance": 20,
+      "aliases": [
+        "衢州市",
+        "衢州"
+      ]
+    },
+    {
+      "id": "330900",
+      "adcode": "330900",
+      "name": "舟山市",
+      "shortName": "舟山",
+      "province": "浙江省",
+      "longitude": 122.106863,
+      "latitude": 30.016028,
+      "importance": 20,
+      "aliases": [
+        "舟山市",
+        "舟山"
+      ]
+    },
+    {
+      "id": "331000",
+      "adcode": "331000",
+      "name": "台州市",
+      "shortName": "台州",
+      "province": "浙江省",
+      "longitude": 121.428599,
+      "latitude": 28.661378,
+      "importance": 20,
+      "aliases": [
+        "台州市",
+        "台州"
+      ]
+    },
+    {
+      "id": "331100",
+      "adcode": "331100",
+      "name": "丽水市",
+      "shortName": "丽水",
+      "province": "浙江省",
+      "longitude": 119.921786,
+      "latitude": 28.451993,
+      "importance": 20,
+      "aliases": [
+        "丽水市",
+        "丽水"
+      ]
+    },
+    {
+      "id": "340100",
+      "adcode": "340100",
+      "name": "合肥市",
+      "shortName": "合肥",
+      "province": "安徽省",
+      "longitude": 117.283042,
+      "latitude": 31.86119,
+      "importance": 90,
+      "aliases": [
+        "合肥市",
+        "合肥"
+      ]
+    },
+    {
+      "id": "340200",
+      "adcode": "340200",
+      "name": "芜湖市",
+      "shortName": "芜湖",
+      "province": "安徽省",
+      "longitude": 118.376451,
+      "latitude": 31.326319,
+      "importance": 20,
+      "aliases": [
+        "芜湖市",
+        "芜湖"
+      ]
+    },
+    {
+      "id": "340300",
+      "adcode": "340300",
+      "name": "蚌埠市",
+      "shortName": "蚌埠",
+      "province": "安徽省",
+      "longitude": 117.363228,
+      "latitude": 32.939667,
+      "importance": 20,
+      "aliases": [
+        "蚌埠市",
+        "蚌埠"
+      ]
+    },
+    {
+      "id": "340400",
+      "adcode": "340400",
+      "name": "淮南市",
+      "shortName": "淮南",
+      "province": "安徽省",
+      "longitude": 117.018329,
+      "latitude": 32.647574,
+      "importance": 20,
+      "aliases": [
+        "淮南市",
+        "淮南"
+      ]
+    },
+    {
+      "id": "340500",
+      "adcode": "340500",
+      "name": "马鞍山市",
+      "shortName": "马鞍山",
+      "province": "安徽省",
+      "longitude": 118.507906,
+      "latitude": 31.689362,
+      "importance": 20,
+      "aliases": [
+        "马鞍山市",
+        "马鞍山"
+      ]
+    },
+    {
+      "id": "340600",
+      "adcode": "340600",
+      "name": "淮北市",
+      "shortName": "淮北",
+      "province": "安徽省",
+      "longitude": 116.794664,
+      "latitude": 33.971707,
+      "importance": 20,
+      "aliases": [
+        "淮北市",
+        "淮北"
+      ]
+    },
+    {
+      "id": "340700",
+      "adcode": "340700",
+      "name": "铜陵市",
+      "shortName": "铜陵",
+      "province": "安徽省",
+      "longitude": 117.816576,
+      "latitude": 30.929935,
+      "importance": 20,
+      "aliases": [
+        "铜陵市",
+        "铜陵"
+      ]
+    },
+    {
+      "id": "340800",
+      "adcode": "340800",
+      "name": "安庆市",
+      "shortName": "安庆",
+      "province": "安徽省",
+      "longitude": 117.043551,
+      "latitude": 30.50883,
+      "importance": 20,
+      "aliases": [
+        "安庆市",
+        "安庆"
+      ]
+    },
+    {
+      "id": "341000",
+      "adcode": "341000",
+      "name": "黄山市",
+      "shortName": "黄山",
+      "province": "安徽省",
+      "longitude": 118.317325,
+      "latitude": 29.709239,
+      "importance": 20,
+      "aliases": [
+        "黄山市",
+        "黄山"
+      ]
+    },
+    {
+      "id": "341100",
+      "adcode": "341100",
+      "name": "滁州市",
+      "shortName": "滁州",
+      "province": "安徽省",
+      "longitude": 118.316264,
+      "latitude": 32.303627,
+      "importance": 20,
+      "aliases": [
+        "滁州市",
+        "滁州"
+      ]
+    },
+    {
+      "id": "341200",
+      "adcode": "341200",
+      "name": "阜阳市",
+      "shortName": "阜阳",
+      "province": "安徽省",
+      "longitude": 115.819729,
+      "latitude": 32.896969,
+      "importance": 20,
+      "aliases": [
+        "阜阳市",
+        "阜阳"
+      ]
+    },
+    {
+      "id": "341300",
+      "adcode": "341300",
+      "name": "宿州市",
+      "shortName": "宿州",
+      "province": "安徽省",
+      "longitude": 116.984084,
+      "latitude": 33.633891,
+      "importance": 20,
+      "aliases": [
+        "宿州市",
+        "宿州"
+      ]
+    },
+    {
+      "id": "341500",
+      "adcode": "341500",
+      "name": "六安市",
+      "shortName": "六安",
+      "province": "安徽省",
+      "longitude": 116.507676,
+      "latitude": 31.752889,
+      "importance": 20,
+      "aliases": [
+        "六安市",
+        "六安"
+      ]
+    },
+    {
+      "id": "341600",
+      "adcode": "341600",
+      "name": "亳州市",
+      "shortName": "亳州",
+      "province": "安徽省",
+      "longitude": 115.782939,
+      "latitude": 33.869338,
+      "importance": 20,
+      "aliases": [
+        "亳州市",
+        "亳州"
+      ]
+    },
+    {
+      "id": "341700",
+      "adcode": "341700",
+      "name": "池州市",
+      "shortName": "池州",
+      "province": "安徽省",
+      "longitude": 117.489157,
+      "latitude": 30.656037,
+      "importance": 20,
+      "aliases": [
+        "池州市",
+        "池州"
+      ]
+    },
+    {
+      "id": "341800",
+      "adcode": "341800",
+      "name": "宣城市",
+      "shortName": "宣城",
+      "province": "安徽省",
+      "longitude": 118.757995,
+      "latitude": 30.945667,
+      "importance": 20,
+      "aliases": [
+        "宣城市",
+        "宣城"
+      ]
+    },
+    {
+      "id": "350100",
+      "adcode": "350100",
+      "name": "福州市",
+      "shortName": "福州",
+      "province": "福建省",
+      "longitude": 119.306239,
+      "latitude": 26.075302,
+      "importance": 90,
+      "aliases": [
+        "福州市",
+        "福州"
+      ]
+    },
+    {
+      "id": "350200",
+      "adcode": "350200",
+      "name": "厦门市",
+      "shortName": "厦门",
+      "province": "福建省",
+      "longitude": 118.11022,
+      "latitude": 24.490474,
+      "importance": 20,
+      "aliases": [
+        "厦门市",
+        "厦门"
+      ]
+    },
+    {
+      "id": "350300",
+      "adcode": "350300",
+      "name": "莆田市",
+      "shortName": "莆田",
+      "province": "福建省",
+      "longitude": 119.007558,
+      "latitude": 25.431011,
+      "importance": 20,
+      "aliases": [
+        "莆田市",
+        "莆田"
+      ]
+    },
+    {
+      "id": "350400",
+      "adcode": "350400",
+      "name": "三明市",
+      "shortName": "三明",
+      "province": "福建省",
+      "longitude": 117.635001,
+      "latitude": 26.265444,
+      "importance": 20,
+      "aliases": [
+        "三明市",
+        "三明"
+      ]
+    },
+    {
+      "id": "350500",
+      "adcode": "350500",
+      "name": "泉州市",
+      "shortName": "泉州",
+      "province": "福建省",
+      "longitude": 118.589421,
+      "latitude": 24.908853,
+      "importance": 20,
+      "aliases": [
+        "泉州市",
+        "泉州"
+      ]
+    },
+    {
+      "id": "350600",
+      "adcode": "350600",
+      "name": "漳州市",
+      "shortName": "漳州",
+      "province": "福建省",
+      "longitude": 117.661801,
+      "latitude": 24.510897,
+      "importance": 20,
+      "aliases": [
+        "漳州市",
+        "漳州"
+      ]
+    },
+    {
+      "id": "350700",
+      "adcode": "350700",
+      "name": "南平市",
+      "shortName": "南平",
+      "province": "福建省",
+      "longitude": 118.178459,
+      "latitude": 26.635627,
+      "importance": 20,
+      "aliases": [
+        "南平市",
+        "南平"
+      ]
+    },
+    {
+      "id": "350800",
+      "adcode": "350800",
+      "name": "龙岩市",
+      "shortName": "龙岩",
+      "province": "福建省",
+      "longitude": 117.02978,
+      "latitude": 25.091603,
+      "importance": 20,
+      "aliases": [
+        "龙岩市",
+        "龙岩"
+      ]
+    },
+    {
+      "id": "350900",
+      "adcode": "350900",
+      "name": "宁德市",
+      "shortName": "宁德",
+      "province": "福建省",
+      "longitude": 119.527082,
+      "latitude": 26.65924,
+      "importance": 20,
+      "aliases": [
+        "宁德市",
+        "宁德"
+      ]
+    },
+    {
+      "id": "360100",
+      "adcode": "360100",
+      "name": "南昌市",
+      "shortName": "南昌",
+      "province": "江西省",
+      "longitude": 115.892151,
+      "latitude": 28.676493,
+      "importance": 90,
+      "aliases": [
+        "南昌市",
+        "南昌"
+      ]
+    },
+    {
+      "id": "360200",
+      "adcode": "360200",
+      "name": "景德镇市",
+      "shortName": "景德镇",
+      "province": "江西省",
+      "longitude": 117.214664,
+      "latitude": 29.29256,
+      "importance": 20,
+      "aliases": [
+        "景德镇市",
+        "景德镇"
+      ]
+    },
+    {
+      "id": "360300",
+      "adcode": "360300",
+      "name": "萍乡市",
+      "shortName": "萍乡",
+      "province": "江西省",
+      "longitude": 113.852186,
+      "latitude": 27.622946,
+      "importance": 20,
+      "aliases": [
+        "萍乡市",
+        "萍乡"
+      ]
+    },
+    {
+      "id": "360400",
+      "adcode": "360400",
+      "name": "九江市",
+      "shortName": "九江",
+      "province": "江西省",
+      "longitude": 115.992811,
+      "latitude": 29.712034,
+      "importance": 20,
+      "aliases": [
+        "九江市",
+        "九江"
+      ]
+    },
+    {
+      "id": "360500",
+      "adcode": "360500",
+      "name": "新余市",
+      "shortName": "新余",
+      "province": "江西省",
+      "longitude": 114.930835,
+      "latitude": 27.810834,
+      "importance": 20,
+      "aliases": [
+        "新余市",
+        "新余"
+      ]
+    },
+    {
+      "id": "360600",
+      "adcode": "360600",
+      "name": "鹰潭市",
+      "shortName": "鹰潭",
+      "province": "江西省",
+      "longitude": 117.033838,
+      "latitude": 28.238638,
+      "importance": 20,
+      "aliases": [
+        "鹰潭市",
+        "鹰潭"
+      ]
+    },
+    {
+      "id": "360700",
+      "adcode": "360700",
+      "name": "赣州市",
+      "shortName": "赣州",
+      "province": "江西省",
+      "longitude": 114.940278,
+      "latitude": 25.85097,
+      "importance": 20,
+      "aliases": [
+        "赣州市",
+        "赣州"
+      ]
+    },
+    {
+      "id": "360800",
+      "adcode": "360800",
+      "name": "吉安市",
+      "shortName": "吉安",
+      "province": "江西省",
+      "longitude": 114.986373,
+      "latitude": 27.111699,
+      "importance": 20,
+      "aliases": [
+        "吉安市",
+        "吉安"
+      ]
+    },
+    {
+      "id": "360900",
+      "adcode": "360900",
+      "name": "宜春市",
+      "shortName": "宜春",
+      "province": "江西省",
+      "longitude": 114.391136,
+      "latitude": 27.8043,
+      "importance": 20,
+      "aliases": [
+        "宜春市",
+        "宜春"
+      ]
+    },
+    {
+      "id": "361000",
+      "adcode": "361000",
+      "name": "抚州市",
+      "shortName": "抚州",
+      "province": "江西省",
+      "longitude": 116.358351,
+      "latitude": 27.98385,
+      "importance": 20,
+      "aliases": [
+        "抚州市",
+        "抚州"
+      ]
+    },
+    {
+      "id": "361100",
+      "adcode": "361100",
+      "name": "上饶市",
+      "shortName": "上饶",
+      "province": "江西省",
+      "longitude": 117.971185,
+      "latitude": 28.44442,
+      "importance": 20,
+      "aliases": [
+        "上饶市",
+        "上饶"
+      ]
+    },
+    {
+      "id": "370100",
+      "adcode": "370100",
+      "name": "济南市",
+      "shortName": "济南",
+      "province": "山东省",
+      "longitude": 117.000923,
+      "latitude": 36.675807,
+      "importance": 90,
+      "aliases": [
+        "济南市",
+        "济南"
+      ]
+    },
+    {
+      "id": "370200",
+      "adcode": "370200",
+      "name": "青岛市",
+      "shortName": "青岛",
+      "province": "山东省",
+      "longitude": 120.355173,
+      "latitude": 36.082982,
+      "importance": 20,
+      "aliases": [
+        "青岛市",
+        "青岛"
+      ]
+    },
+    {
+      "id": "370300",
+      "adcode": "370300",
+      "name": "淄博市",
+      "shortName": "淄博",
+      "province": "山东省",
+      "longitude": 118.047648,
+      "latitude": 36.814939,
+      "importance": 20,
+      "aliases": [
+        "淄博市",
+        "淄博"
+      ]
+    },
+    {
+      "id": "370400",
+      "adcode": "370400",
+      "name": "枣庄市",
+      "shortName": "枣庄",
+      "province": "山东省",
+      "longitude": 117.557964,
+      "latitude": 34.856424,
+      "importance": 20,
+      "aliases": [
+        "枣庄市",
+        "枣庄"
+      ]
+    },
+    {
+      "id": "370500",
+      "adcode": "370500",
+      "name": "东营市",
+      "shortName": "东营",
+      "province": "山东省",
+      "longitude": 118.66471,
+      "latitude": 37.434564,
+      "importance": 20,
+      "aliases": [
+        "东营市",
+        "东营"
+      ]
+    },
+    {
+      "id": "370600",
+      "adcode": "370600",
+      "name": "烟台市",
+      "shortName": "烟台",
+      "province": "山东省",
+      "longitude": 121.391382,
+      "latitude": 37.539297,
+      "importance": 20,
+      "aliases": [
+        "烟台市",
+        "烟台"
+      ]
+    },
+    {
+      "id": "370700",
+      "adcode": "370700",
+      "name": "潍坊市",
+      "shortName": "潍坊",
+      "province": "山东省",
+      "longitude": 119.107078,
+      "latitude": 36.70925,
+      "importance": 20,
+      "aliases": [
+        "潍坊市",
+        "潍坊"
+      ]
+    },
+    {
+      "id": "370800",
+      "adcode": "370800",
+      "name": "济宁市",
+      "shortName": "济宁",
+      "province": "山东省",
+      "longitude": 116.587245,
+      "latitude": 35.415393,
+      "importance": 20,
+      "aliases": [
+        "济宁市",
+        "济宁"
+      ]
+    },
+    {
+      "id": "370900",
+      "adcode": "370900",
+      "name": "泰安市",
+      "shortName": "泰安",
+      "province": "山东省",
+      "longitude": 117.129063,
+      "latitude": 36.194968,
+      "importance": 20,
+      "aliases": [
+        "泰安市",
+        "泰安"
+      ]
+    },
+    {
+      "id": "371000",
+      "adcode": "371000",
+      "name": "威海市",
+      "shortName": "威海",
+      "province": "山东省",
+      "longitude": 122.116394,
+      "latitude": 37.509691,
+      "importance": 20,
+      "aliases": [
+        "威海市",
+        "威海"
+      ]
+    },
+    {
+      "id": "371100",
+      "adcode": "371100",
+      "name": "日照市",
+      "shortName": "日照",
+      "province": "山东省",
+      "longitude": 119.461208,
+      "latitude": 35.428588,
+      "importance": 20,
+      "aliases": [
+        "日照市",
+        "日照"
+      ]
+    },
+    {
+      "id": "371300",
+      "adcode": "371300",
+      "name": "临沂市",
+      "shortName": "临沂",
+      "province": "山东省",
+      "longitude": 118.326443,
+      "latitude": 35.065282,
+      "importance": 20,
+      "aliases": [
+        "临沂市",
+        "临沂"
+      ]
+    },
+    {
+      "id": "371400",
+      "adcode": "371400",
+      "name": "德州市",
+      "shortName": "德州",
+      "province": "山东省",
+      "longitude": 116.307428,
+      "latitude": 37.453968,
+      "importance": 20,
+      "aliases": [
+        "德州市",
+        "德州"
+      ]
+    },
+    {
+      "id": "371500",
+      "adcode": "371500",
+      "name": "聊城市",
+      "shortName": "聊城",
+      "province": "山东省",
+      "longitude": 115.980367,
+      "latitude": 36.456013,
+      "importance": 20,
+      "aliases": [
+        "聊城市",
+        "聊城"
+      ]
+    },
+    {
+      "id": "371600",
+      "adcode": "371600",
+      "name": "滨州市",
+      "shortName": "滨州",
+      "province": "山东省",
+      "longitude": 118.016974,
+      "latitude": 37.383542,
+      "importance": 20,
+      "aliases": [
+        "滨州市",
+        "滨州"
+      ]
+    },
+    {
+      "id": "371700",
+      "adcode": "371700",
+      "name": "菏泽市",
+      "shortName": "菏泽",
+      "province": "山东省",
+      "longitude": 115.469381,
+      "latitude": 35.246531,
+      "importance": 20,
+      "aliases": [
+        "菏泽市",
+        "菏泽"
+      ]
+    },
+    {
+      "id": "410100",
+      "adcode": "410100",
+      "name": "郑州市",
+      "shortName": "郑州",
+      "province": "河南省",
+      "longitude": 113.665412,
+      "latitude": 34.757975,
+      "importance": 90,
+      "aliases": [
+        "郑州市",
+        "郑州"
+      ]
+    },
+    {
+      "id": "410200",
+      "adcode": "410200",
+      "name": "开封市",
+      "shortName": "开封",
+      "province": "河南省",
+      "longitude": 114.341447,
+      "latitude": 34.797049,
+      "importance": 20,
+      "aliases": [
+        "开封市",
+        "开封"
+      ]
+    },
+    {
+      "id": "410300",
+      "adcode": "410300",
+      "name": "洛阳市",
+      "shortName": "洛阳",
+      "province": "河南省",
+      "longitude": 112.434468,
+      "latitude": 34.663041,
+      "importance": 20,
+      "aliases": [
+        "洛阳市",
+        "洛阳"
+      ]
+    },
+    {
+      "id": "410400",
+      "adcode": "410400",
+      "name": "平顶山市",
+      "shortName": "平顶山",
+      "province": "河南省",
+      "longitude": 113.307718,
+      "latitude": 33.735241,
+      "importance": 20,
+      "aliases": [
+        "平顶山市",
+        "平顶山"
+      ]
+    },
+    {
+      "id": "410500",
+      "adcode": "410500",
+      "name": "安阳市",
+      "shortName": "安阳",
+      "province": "河南省",
+      "longitude": 114.352482,
+      "latitude": 36.103442,
+      "importance": 20,
+      "aliases": [
+        "安阳市",
+        "安阳"
+      ]
+    },
+    {
+      "id": "410600",
+      "adcode": "410600",
+      "name": "鹤壁市",
+      "shortName": "鹤壁",
+      "province": "河南省",
+      "longitude": 114.295444,
+      "latitude": 35.748236,
+      "importance": 20,
+      "aliases": [
+        "鹤壁市",
+        "鹤壁"
+      ]
+    },
+    {
+      "id": "410700",
+      "adcode": "410700",
+      "name": "新乡市",
+      "shortName": "新乡",
+      "province": "河南省",
+      "longitude": 113.883991,
+      "latitude": 35.302616,
+      "importance": 20,
+      "aliases": [
+        "新乡市",
+        "新乡"
+      ]
+    },
+    {
+      "id": "410800",
+      "adcode": "410800",
+      "name": "焦作市",
+      "shortName": "焦作",
+      "province": "河南省",
+      "longitude": 113.238266,
+      "latitude": 35.23904,
+      "importance": 20,
+      "aliases": [
+        "焦作市",
+        "焦作"
+      ]
+    },
+    {
+      "id": "410900",
+      "adcode": "410900",
+      "name": "濮阳市",
+      "shortName": "濮阳",
+      "province": "河南省",
+      "longitude": 115.041299,
+      "latitude": 35.768234,
+      "importance": 20,
+      "aliases": [
+        "濮阳市",
+        "濮阳"
+      ]
+    },
+    {
+      "id": "411000",
+      "adcode": "411000",
+      "name": "许昌市",
+      "shortName": "许昌",
+      "province": "河南省",
+      "longitude": 113.826063,
+      "latitude": 34.022956,
+      "importance": 20,
+      "aliases": [
+        "许昌市",
+        "许昌"
+      ]
+    },
+    {
+      "id": "411100",
+      "adcode": "411100",
+      "name": "漯河市",
+      "shortName": "漯河",
+      "province": "河南省",
+      "longitude": 114.026405,
+      "latitude": 33.575855,
+      "importance": 20,
+      "aliases": [
+        "漯河市",
+        "漯河"
+      ]
+    },
+    {
+      "id": "411200",
+      "adcode": "411200",
+      "name": "三门峡市",
+      "shortName": "三门峡",
+      "province": "河南省",
+      "longitude": 111.194099,
+      "latitude": 34.777338,
+      "importance": 20,
+      "aliases": [
+        "三门峡市",
+        "三门峡"
+      ]
+    },
+    {
+      "id": "411300",
+      "adcode": "411300",
+      "name": "南阳市",
+      "shortName": "南阳",
+      "province": "河南省",
+      "longitude": 112.540918,
+      "latitude": 32.999082,
+      "importance": 20,
+      "aliases": [
+        "南阳市",
+        "南阳"
+      ]
+    },
+    {
+      "id": "411400",
+      "adcode": "411400",
+      "name": "商丘市",
+      "shortName": "商丘",
+      "province": "河南省",
+      "longitude": 115.650497,
+      "latitude": 34.437054,
+      "importance": 20,
+      "aliases": [
+        "商丘市",
+        "商丘"
+      ]
+    },
+    {
+      "id": "411500",
+      "adcode": "411500",
+      "name": "信阳市",
+      "shortName": "信阳",
+      "province": "河南省",
+      "longitude": 114.075031,
+      "latitude": 32.123274,
+      "importance": 20,
+      "aliases": [
+        "信阳市",
+        "信阳"
+      ]
+    },
+    {
+      "id": "411600",
+      "adcode": "411600",
+      "name": "周口市",
+      "shortName": "周口",
+      "province": "河南省",
+      "longitude": 114.649653,
+      "latitude": 33.620357,
+      "importance": 20,
+      "aliases": [
+        "周口市",
+        "周口"
+      ]
+    },
+    {
+      "id": "411700",
+      "adcode": "411700",
+      "name": "驻马店市",
+      "shortName": "驻马店",
+      "province": "河南省",
+      "longitude": 114.024736,
+      "latitude": 32.980169,
+      "importance": 20,
+      "aliases": [
+        "驻马店市",
+        "驻马店"
+      ]
+    },
+    {
+      "id": "419001",
+      "adcode": "419001",
+      "name": "济源市",
+      "shortName": "济源",
+      "province": "河南省",
+      "longitude": 112.590047,
+      "latitude": 35.090378,
+      "importance": 20,
+      "aliases": [
+        "济源市",
+        "济源"
+      ]
+    },
+    {
+      "id": "420100",
+      "adcode": "420100",
+      "name": "武汉市",
+      "shortName": "武汉",
+      "province": "湖北省",
+      "longitude": 114.298572,
+      "latitude": 30.584355,
+      "importance": 90,
+      "aliases": [
+        "武汉市",
+        "武汉"
+      ]
+    },
+    {
+      "id": "420200",
+      "adcode": "420200",
+      "name": "黄石市",
+      "shortName": "黄石",
+      "province": "湖北省",
+      "longitude": 115.077048,
+      "latitude": 30.220074,
+      "importance": 20,
+      "aliases": [
+        "黄石市",
+        "黄石"
+      ]
+    },
+    {
+      "id": "420300",
+      "adcode": "420300",
+      "name": "十堰市",
+      "shortName": "十堰",
+      "province": "湖北省",
+      "longitude": 110.787916,
+      "latitude": 32.646907,
+      "importance": 20,
+      "aliases": [
+        "十堰市",
+        "十堰"
+      ]
+    },
+    {
+      "id": "420500",
+      "adcode": "420500",
+      "name": "宜昌市",
+      "shortName": "宜昌",
+      "province": "湖北省",
+      "longitude": 111.290843,
+      "latitude": 30.702636,
+      "importance": 20,
+      "aliases": [
+        "宜昌市",
+        "宜昌"
+      ]
+    },
+    {
+      "id": "420600",
+      "adcode": "420600",
+      "name": "襄阳市",
+      "shortName": "襄阳",
+      "province": "湖北省",
+      "longitude": 112.144146,
+      "latitude": 32.042426,
+      "importance": 20,
+      "aliases": [
+        "襄阳市",
+        "襄阳"
+      ]
+    },
+    {
+      "id": "420700",
+      "adcode": "420700",
+      "name": "鄂州市",
+      "shortName": "鄂州",
+      "province": "湖北省",
+      "longitude": 114.890593,
+      "latitude": 30.396536,
+      "importance": 20,
+      "aliases": [
+        "鄂州市",
+        "鄂州"
+      ]
+    },
+    {
+      "id": "420800",
+      "adcode": "420800",
+      "name": "荆门市",
+      "shortName": "荆门",
+      "province": "湖北省",
+      "longitude": 112.204251,
+      "latitude": 31.03542,
+      "importance": 20,
+      "aliases": [
+        "荆门市",
+        "荆门"
+      ]
+    },
+    {
+      "id": "420900",
+      "adcode": "420900",
+      "name": "孝感市",
+      "shortName": "孝感",
+      "province": "湖北省",
+      "longitude": 113.926655,
+      "latitude": 30.926423,
+      "importance": 20,
+      "aliases": [
+        "孝感市",
+        "孝感"
+      ]
+    },
+    {
+      "id": "421000",
+      "adcode": "421000",
+      "name": "荆州市",
+      "shortName": "荆州",
+      "province": "湖北省",
+      "longitude": 112.23813,
+      "latitude": 30.326857,
+      "importance": 20,
+      "aliases": [
+        "荆州市",
+        "荆州"
+      ]
+    },
+    {
+      "id": "421100",
+      "adcode": "421100",
+      "name": "黄冈市",
+      "shortName": "黄冈",
+      "province": "湖北省",
+      "longitude": 114.879365,
+      "latitude": 30.447711,
+      "importance": 20,
+      "aliases": [
+        "黄冈市",
+        "黄冈"
+      ]
+    },
+    {
+      "id": "421200",
+      "adcode": "421200",
+      "name": "咸宁市",
+      "shortName": "咸宁",
+      "province": "湖北省",
+      "longitude": 114.328963,
+      "latitude": 29.832798,
+      "importance": 20,
+      "aliases": [
+        "咸宁市",
+        "咸宁"
+      ]
+    },
+    {
+      "id": "421300",
+      "adcode": "421300",
+      "name": "随州市",
+      "shortName": "随州",
+      "province": "湖北省",
+      "longitude": 113.37377,
+      "latitude": 31.717497,
+      "importance": 20,
+      "aliases": [
+        "随州市",
+        "随州"
+      ]
+    },
+    {
+      "id": "422800",
+      "adcode": "422800",
+      "name": "恩施土家族苗族自治州",
+      "shortName": "恩施土家族苗族",
+      "province": "湖北省",
+      "longitude": 109.48699,
+      "latitude": 30.283114,
+      "importance": 20,
+      "aliases": [
+        "恩施土家族苗族自治州",
+        "恩施土家族苗族"
+      ]
+    },
+    {
+      "id": "429004",
+      "adcode": "429004",
+      "name": "仙桃市",
+      "shortName": "仙桃",
+      "province": "湖北省",
+      "longitude": 113.453974,
+      "latitude": 30.364953,
+      "importance": 20,
+      "aliases": [
+        "仙桃市",
+        "仙桃"
+      ]
+    },
+    {
+      "id": "429005",
+      "adcode": "429005",
+      "name": "潜江市",
+      "shortName": "潜江",
+      "province": "湖北省",
+      "longitude": 112.896866,
+      "latitude": 30.421215,
+      "importance": 20,
+      "aliases": [
+        "潜江市",
+        "潜江"
+      ]
+    },
+    {
+      "id": "429006",
+      "adcode": "429006",
+      "name": "天门市",
+      "shortName": "天门",
+      "province": "湖北省",
+      "longitude": 113.165862,
+      "latitude": 30.653061,
+      "importance": 20,
+      "aliases": [
+        "天门市",
+        "天门"
+      ]
+    },
+    {
+      "id": "429021",
+      "adcode": "429021",
+      "name": "神农架林区",
+      "shortName": "神农架林区",
+      "province": "湖北省",
+      "longitude": 110.671525,
+      "latitude": 31.744449,
+      "importance": 20,
+      "aliases": [
+        "神农架林区"
+      ]
+    },
+    {
+      "id": "430100",
+      "adcode": "430100",
+      "name": "长沙市",
+      "shortName": "长沙",
+      "province": "湖南省",
+      "longitude": 112.982279,
+      "latitude": 28.19409,
+      "importance": 90,
+      "aliases": [
+        "长沙市",
+        "长沙"
+      ]
+    },
+    {
+      "id": "430200",
+      "adcode": "430200",
+      "name": "株洲市",
+      "shortName": "株洲",
+      "province": "湖南省",
+      "longitude": 113.151737,
+      "latitude": 27.835806,
+      "importance": 20,
+      "aliases": [
+        "株洲市",
+        "株洲"
+      ]
+    },
+    {
+      "id": "430300",
+      "adcode": "430300",
+      "name": "湘潭市",
+      "shortName": "湘潭",
+      "province": "湖南省",
+      "longitude": 112.944052,
+      "latitude": 27.82973,
+      "importance": 20,
+      "aliases": [
+        "湘潭市",
+        "湘潭"
+      ]
+    },
+    {
+      "id": "430400",
+      "adcode": "430400",
+      "name": "衡阳市",
+      "shortName": "衡阳",
+      "province": "湖南省",
+      "longitude": 112.607693,
+      "latitude": 26.900358,
+      "importance": 20,
+      "aliases": [
+        "衡阳市",
+        "衡阳"
+      ]
+    },
+    {
+      "id": "430500",
+      "adcode": "430500",
+      "name": "邵阳市",
+      "shortName": "邵阳",
+      "province": "湖南省",
+      "longitude": 111.46923,
+      "latitude": 27.237842,
+      "importance": 20,
+      "aliases": [
+        "邵阳市",
+        "邵阳"
+      ]
+    },
+    {
+      "id": "430600",
+      "adcode": "430600",
+      "name": "岳阳市",
+      "shortName": "岳阳",
+      "province": "湖南省",
+      "longitude": 113.132855,
+      "latitude": 29.37029,
+      "importance": 20,
+      "aliases": [
+        "岳阳市",
+        "岳阳"
+      ]
+    },
+    {
+      "id": "430700",
+      "adcode": "430700",
+      "name": "常德市",
+      "shortName": "常德",
+      "province": "湖南省",
+      "longitude": 111.691347,
+      "latitude": 29.040225,
+      "importance": 20,
+      "aliases": [
+        "常德市",
+        "常德"
+      ]
+    },
+    {
+      "id": "430800",
+      "adcode": "430800",
+      "name": "张家界市",
+      "shortName": "张家界",
+      "province": "湖南省",
+      "longitude": 110.479921,
+      "latitude": 29.127401,
+      "importance": 20,
+      "aliases": [
+        "张家界市",
+        "张家界"
+      ]
+    },
+    {
+      "id": "430900",
+      "adcode": "430900",
+      "name": "益阳市",
+      "shortName": "益阳",
+      "province": "湖南省",
+      "longitude": 112.355042,
+      "latitude": 28.570066,
+      "importance": 20,
+      "aliases": [
+        "益阳市",
+        "益阳"
+      ]
+    },
+    {
+      "id": "431000",
+      "adcode": "431000",
+      "name": "郴州市",
+      "shortName": "郴州",
+      "province": "湖南省",
+      "longitude": 113.032067,
+      "latitude": 25.793589,
+      "importance": 20,
+      "aliases": [
+        "郴州市",
+        "郴州"
+      ]
+    },
+    {
+      "id": "431100",
+      "adcode": "431100",
+      "name": "永州市",
+      "shortName": "永州",
+      "province": "湖南省",
+      "longitude": 111.608019,
+      "latitude": 26.434516,
+      "importance": 20,
+      "aliases": [
+        "永州市",
+        "永州"
+      ]
+    },
+    {
+      "id": "431200",
+      "adcode": "431200",
+      "name": "怀化市",
+      "shortName": "怀化",
+      "province": "湖南省",
+      "longitude": 109.97824,
+      "latitude": 27.550082,
+      "importance": 20,
+      "aliases": [
+        "怀化市",
+        "怀化"
+      ]
+    },
+    {
+      "id": "431300",
+      "adcode": "431300",
+      "name": "娄底市",
+      "shortName": "娄底",
+      "province": "湖南省",
+      "longitude": 112.008497,
+      "latitude": 27.728136,
+      "importance": 20,
+      "aliases": [
+        "娄底市",
+        "娄底"
+      ]
+    },
+    {
+      "id": "433100",
+      "adcode": "433100",
+      "name": "湘西土家族苗族自治州",
+      "shortName": "湘西土家族苗族",
+      "province": "湖南省",
+      "longitude": 109.739735,
+      "latitude": 28.314296,
+      "importance": 20,
+      "aliases": [
+        "湘西土家族苗族自治州",
+        "湘西土家族苗族"
+      ]
+    },
+    {
+      "id": "440100",
+      "adcode": "440100",
+      "name": "广州市",
+      "shortName": "广州",
+      "province": "广东省",
+      "longitude": 113.280637,
+      "latitude": 23.125178,
+      "importance": 90,
+      "aliases": [
+        "广州市",
+        "广州"
+      ]
+    },
+    {
+      "id": "440200",
+      "adcode": "440200",
+      "name": "韶关市",
+      "shortName": "韶关",
+      "province": "广东省",
+      "longitude": 113.591544,
+      "latitude": 24.801322,
+      "importance": 20,
+      "aliases": [
+        "韶关市",
+        "韶关"
+      ]
+    },
+    {
+      "id": "440300",
+      "adcode": "440300",
+      "name": "深圳市",
+      "shortName": "深圳",
+      "province": "广东省",
+      "longitude": 114.085947,
+      "latitude": 22.547,
+      "importance": 20,
+      "aliases": [
+        "深圳市",
+        "深圳"
+      ]
+    },
+    {
+      "id": "440400",
+      "adcode": "440400",
+      "name": "珠海市",
+      "shortName": "珠海",
+      "province": "广东省",
+      "longitude": 113.553986,
+      "latitude": 22.224979,
+      "importance": 20,
+      "aliases": [
+        "珠海市",
+        "珠海"
+      ]
+    },
+    {
+      "id": "440500",
+      "adcode": "440500",
+      "name": "汕头市",
+      "shortName": "汕头",
+      "province": "广东省",
+      "longitude": 116.708463,
+      "latitude": 23.37102,
+      "importance": 20,
+      "aliases": [
+        "汕头市",
+        "汕头"
+      ]
+    },
+    {
+      "id": "440600",
+      "adcode": "440600",
+      "name": "佛山市",
+      "shortName": "佛山",
+      "province": "广东省",
+      "longitude": 113.122717,
+      "latitude": 23.028762,
+      "importance": 20,
+      "aliases": [
+        "佛山市",
+        "佛山"
+      ]
+    },
+    {
+      "id": "440700",
+      "adcode": "440700",
+      "name": "江门市",
+      "shortName": "江门",
+      "province": "广东省",
+      "longitude": 113.094942,
+      "latitude": 22.590431,
+      "importance": 20,
+      "aliases": [
+        "江门市",
+        "江门"
+      ]
+    },
+    {
+      "id": "440800",
+      "adcode": "440800",
+      "name": "湛江市",
+      "shortName": "湛江",
+      "province": "广东省",
+      "longitude": 110.364977,
+      "latitude": 21.274898,
+      "importance": 20,
+      "aliases": [
+        "湛江市",
+        "湛江"
+      ]
+    },
+    {
+      "id": "440900",
+      "adcode": "440900",
+      "name": "茂名市",
+      "shortName": "茂名",
+      "province": "广东省",
+      "longitude": 110.919229,
+      "latitude": 21.659751,
+      "importance": 20,
+      "aliases": [
+        "茂名市",
+        "茂名"
+      ]
+    },
+    {
+      "id": "441200",
+      "adcode": "441200",
+      "name": "肇庆市",
+      "shortName": "肇庆",
+      "province": "广东省",
+      "longitude": 112.472529,
+      "latitude": 23.051546,
+      "importance": 20,
+      "aliases": [
+        "肇庆市",
+        "肇庆"
+      ]
+    },
+    {
+      "id": "441300",
+      "adcode": "441300",
+      "name": "惠州市",
+      "shortName": "惠州",
+      "province": "广东省",
+      "longitude": 114.412599,
+      "latitude": 23.079404,
+      "importance": 20,
+      "aliases": [
+        "惠州市",
+        "惠州"
+      ]
+    },
+    {
+      "id": "441400",
+      "adcode": "441400",
+      "name": "梅州市",
+      "shortName": "梅州",
+      "province": "广东省",
+      "longitude": 116.117582,
+      "latitude": 24.299112,
+      "importance": 20,
+      "aliases": [
+        "梅州市",
+        "梅州"
+      ]
+    },
+    {
+      "id": "441500",
+      "adcode": "441500",
+      "name": "汕尾市",
+      "shortName": "汕尾",
+      "province": "广东省",
+      "longitude": 115.364238,
+      "latitude": 22.774485,
+      "importance": 20,
+      "aliases": [
+        "汕尾市",
+        "汕尾"
+      ]
+    },
+    {
+      "id": "441600",
+      "adcode": "441600",
+      "name": "河源市",
+      "shortName": "河源",
+      "province": "广东省",
+      "longitude": 114.697802,
+      "latitude": 23.746266,
+      "importance": 20,
+      "aliases": [
+        "河源市",
+        "河源"
+      ]
+    },
+    {
+      "id": "441700",
+      "adcode": "441700",
+      "name": "阳江市",
+      "shortName": "阳江",
+      "province": "广东省",
+      "longitude": 111.975107,
+      "latitude": 21.859222,
+      "importance": 20,
+      "aliases": [
+        "阳江市",
+        "阳江"
+      ]
+    },
+    {
+      "id": "441800",
+      "adcode": "441800",
+      "name": "清远市",
+      "shortName": "清远",
+      "province": "广东省",
+      "longitude": 113.051227,
+      "latitude": 23.685022,
+      "importance": 20,
+      "aliases": [
+        "清远市",
+        "清远"
+      ]
+    },
+    {
+      "id": "441900",
+      "adcode": "441900",
+      "name": "东莞市",
+      "shortName": "东莞",
+      "province": "广东省",
+      "longitude": 113.746262,
+      "latitude": 23.046237,
+      "importance": 20,
+      "aliases": [
+        "东莞市",
+        "东莞"
+      ]
+    },
+    {
+      "id": "442000",
+      "adcode": "442000",
+      "name": "中山市",
+      "shortName": "中山",
+      "province": "广东省",
+      "longitude": 113.382391,
+      "latitude": 22.521113,
+      "importance": 20,
+      "aliases": [
+        "中山市",
+        "中山"
+      ]
+    },
+    {
+      "id": "445100",
+      "adcode": "445100",
+      "name": "潮州市",
+      "shortName": "潮州",
+      "province": "广东省",
+      "longitude": 116.632301,
+      "latitude": 23.661701,
+      "importance": 20,
+      "aliases": [
+        "潮州市",
+        "潮州"
+      ]
+    },
+    {
+      "id": "445200",
+      "adcode": "445200",
+      "name": "揭阳市",
+      "shortName": "揭阳",
+      "province": "广东省",
+      "longitude": 116.355733,
+      "latitude": 23.543778,
+      "importance": 20,
+      "aliases": [
+        "揭阳市",
+        "揭阳"
+      ]
+    },
+    {
+      "id": "445300",
+      "adcode": "445300",
+      "name": "云浮市",
+      "shortName": "云浮",
+      "province": "广东省",
+      "longitude": 112.044439,
+      "latitude": 22.929801,
+      "importance": 20,
+      "aliases": [
+        "云浮市",
+        "云浮"
+      ]
+    },
+    {
+      "id": "450100",
+      "adcode": "450100",
+      "name": "南宁市",
+      "shortName": "南宁",
+      "province": "广西壮族自治区",
+      "longitude": 108.320004,
+      "latitude": 22.82402,
+      "importance": 90,
+      "aliases": [
+        "南宁市",
+        "南宁"
+      ]
+    },
+    {
+      "id": "450200",
+      "adcode": "450200",
+      "name": "柳州市",
+      "shortName": "柳州",
+      "province": "广西壮族自治区",
+      "longitude": 109.411703,
+      "latitude": 24.314617,
+      "importance": 20,
+      "aliases": [
+        "柳州市",
+        "柳州"
+      ]
+    },
+    {
+      "id": "450300",
+      "adcode": "450300",
+      "name": "桂林市",
+      "shortName": "桂林",
+      "province": "广西壮族自治区",
+      "longitude": 110.299121,
+      "latitude": 25.274215,
+      "importance": 20,
+      "aliases": [
+        "桂林市",
+        "桂林"
+      ]
+    },
+    {
+      "id": "450400",
+      "adcode": "450400",
+      "name": "梧州市",
+      "shortName": "梧州",
+      "province": "广西壮族自治区",
+      "longitude": 111.297604,
+      "latitude": 23.474803,
+      "importance": 20,
+      "aliases": [
+        "梧州市",
+        "梧州"
+      ]
+    },
+    {
+      "id": "450500",
+      "adcode": "450500",
+      "name": "北海市",
+      "shortName": "北海",
+      "province": "广西壮族自治区",
+      "longitude": 109.119254,
+      "latitude": 21.473343,
+      "importance": 20,
+      "aliases": [
+        "北海市",
+        "北海"
+      ]
+    },
+    {
+      "id": "450600",
+      "adcode": "450600",
+      "name": "防城港市",
+      "shortName": "防城港",
+      "province": "广西壮族自治区",
+      "longitude": 108.345478,
+      "latitude": 21.614631,
+      "importance": 20,
+      "aliases": [
+        "防城港市",
+        "防城港"
+      ]
+    },
+    {
+      "id": "450700",
+      "adcode": "450700",
+      "name": "钦州市",
+      "shortName": "钦州",
+      "province": "广西壮族自治区",
+      "longitude": 108.624175,
+      "latitude": 21.967127,
+      "importance": 20,
+      "aliases": [
+        "钦州市",
+        "钦州"
+      ]
+    },
+    {
+      "id": "450800",
+      "adcode": "450800",
+      "name": "贵港市",
+      "shortName": "贵港",
+      "province": "广西壮族自治区",
+      "longitude": 109.602146,
+      "latitude": 23.0936,
+      "importance": 20,
+      "aliases": [
+        "贵港市",
+        "贵港"
+      ]
+    },
+    {
+      "id": "450900",
+      "adcode": "450900",
+      "name": "玉林市",
+      "shortName": "玉林",
+      "province": "广西壮族自治区",
+      "longitude": 110.154393,
+      "latitude": 22.63136,
+      "importance": 20,
+      "aliases": [
+        "玉林市",
+        "玉林"
+      ]
+    },
+    {
+      "id": "451000",
+      "adcode": "451000",
+      "name": "百色市",
+      "shortName": "百色",
+      "province": "广西壮族自治区",
+      "longitude": 106.616285,
+      "latitude": 23.897742,
+      "importance": 20,
+      "aliases": [
+        "百色市",
+        "百色"
+      ]
+    },
+    {
+      "id": "451100",
+      "adcode": "451100",
+      "name": "贺州市",
+      "shortName": "贺州",
+      "province": "广西壮族自治区",
+      "longitude": 111.552056,
+      "latitude": 24.414141,
+      "importance": 20,
+      "aliases": [
+        "贺州市",
+        "贺州"
+      ]
+    },
+    {
+      "id": "451200",
+      "adcode": "451200",
+      "name": "河池市",
+      "shortName": "河池",
+      "province": "广西壮族自治区",
+      "longitude": 108.062105,
+      "latitude": 24.695899,
+      "importance": 20,
+      "aliases": [
+        "河池市",
+        "河池"
+      ]
+    },
+    {
+      "id": "451300",
+      "adcode": "451300",
+      "name": "来宾市",
+      "shortName": "来宾",
+      "province": "广西壮族自治区",
+      "longitude": 109.229772,
+      "latitude": 23.733766,
+      "importance": 20,
+      "aliases": [
+        "来宾市",
+        "来宾"
+      ]
+    },
+    {
+      "id": "451400",
+      "adcode": "451400",
+      "name": "崇左市",
+      "shortName": "崇左",
+      "province": "广西壮族自治区",
+      "longitude": 107.353926,
+      "latitude": 22.404108,
+      "importance": 20,
+      "aliases": [
+        "崇左市",
+        "崇左"
+      ]
+    },
+    {
+      "id": "460100",
+      "adcode": "460100",
+      "name": "海口市",
+      "shortName": "海口",
+      "province": "海南省",
+      "longitude": 110.33119,
+      "latitude": 20.031971,
+      "importance": 90,
+      "aliases": [
+        "海口市",
+        "海口"
+      ]
+    },
+    {
+      "id": "460200",
+      "adcode": "460200",
+      "name": "三亚市",
+      "shortName": "三亚",
+      "province": "海南省",
+      "longitude": 109.508268,
+      "latitude": 18.247872,
+      "importance": 20,
+      "aliases": [
+        "三亚市",
+        "三亚"
+      ]
+    },
+    {
+      "id": "460300",
+      "adcode": "460300",
+      "name": "三沙市",
+      "shortName": "三沙",
+      "province": "海南省",
+      "longitude": 112.34882,
+      "latitude": 16.831039,
+      "importance": 20,
+      "aliases": [
+        "三沙市",
+        "三沙"
+      ]
+    },
+    {
+      "id": "460400",
+      "adcode": "460400",
+      "name": "儋州市",
+      "shortName": "儋州",
+      "province": "海南省",
+      "longitude": 109.576782,
+      "latitude": 19.517486,
+      "importance": 20,
+      "aliases": [
+        "儋州市",
+        "儋州"
+      ]
+    },
+    {
+      "id": "469001",
+      "adcode": "469001",
+      "name": "五指山市",
+      "shortName": "五指山",
+      "province": "海南省",
+      "longitude": 109.516662,
+      "latitude": 18.776921,
+      "importance": 20,
+      "aliases": [
+        "五指山市",
+        "五指山"
+      ]
+    },
+    {
+      "id": "469002",
+      "adcode": "469002",
+      "name": "琼海市",
+      "shortName": "琼海",
+      "province": "海南省",
+      "longitude": 110.466785,
+      "latitude": 19.246011,
+      "importance": 20,
+      "aliases": [
+        "琼海市",
+        "琼海"
+      ]
+    },
+    {
+      "id": "469005",
+      "adcode": "469005",
+      "name": "文昌市",
+      "shortName": "文昌",
+      "province": "海南省",
+      "longitude": 110.753975,
+      "latitude": 19.612986,
+      "importance": 20,
+      "aliases": [
+        "文昌市",
+        "文昌"
+      ]
+    },
+    {
+      "id": "469006",
+      "adcode": "469006",
+      "name": "万宁市",
+      "shortName": "万宁",
+      "province": "海南省",
+      "longitude": 110.388793,
+      "latitude": 18.796216,
+      "importance": 20,
+      "aliases": [
+        "万宁市",
+        "万宁"
+      ]
+    },
+    {
+      "id": "469007",
+      "adcode": "469007",
+      "name": "东方市",
+      "shortName": "东方",
+      "province": "海南省",
+      "longitude": 108.653789,
+      "latitude": 19.10198,
+      "importance": 20,
+      "aliases": [
+        "东方市",
+        "东方"
+      ]
+    },
+    {
+      "id": "469021",
+      "adcode": "469021",
+      "name": "定安县",
+      "shortName": "定安县",
+      "province": "海南省",
+      "longitude": 110.349235,
+      "latitude": 19.684966,
+      "importance": 20,
+      "aliases": [
+        "定安县"
+      ]
+    },
+    {
+      "id": "469022",
+      "adcode": "469022",
+      "name": "屯昌县",
+      "shortName": "屯昌县",
+      "province": "海南省",
+      "longitude": 110.102773,
+      "latitude": 19.362916,
+      "importance": 20,
+      "aliases": [
+        "屯昌县"
+      ]
+    },
+    {
+      "id": "469023",
+      "adcode": "469023",
+      "name": "澄迈县",
+      "shortName": "澄迈县",
+      "province": "海南省",
+      "longitude": 110.007147,
+      "latitude": 19.737095,
+      "importance": 20,
+      "aliases": [
+        "澄迈县"
+      ]
+    },
+    {
+      "id": "469024",
+      "adcode": "469024",
+      "name": "临高县",
+      "shortName": "临高县",
+      "province": "海南省",
+      "longitude": 109.687697,
+      "latitude": 19.908293,
+      "importance": 20,
+      "aliases": [
+        "临高县"
+      ]
+    },
+    {
+      "id": "469025",
+      "adcode": "469025",
+      "name": "白沙黎族自治县",
+      "shortName": "白沙黎族自治县",
+      "province": "海南省",
+      "longitude": 109.452606,
+      "latitude": 19.224584,
+      "importance": 20,
+      "aliases": [
+        "白沙黎族自治县"
+      ]
+    },
+    {
+      "id": "469026",
+      "adcode": "469026",
+      "name": "昌江黎族自治县",
+      "shortName": "昌江黎族自治县",
+      "province": "海南省",
+      "longitude": 109.053351,
+      "latitude": 19.260968,
+      "importance": 20,
+      "aliases": [
+        "昌江黎族自治县"
+      ]
+    },
+    {
+      "id": "469027",
+      "adcode": "469027",
+      "name": "乐东黎族自治县",
+      "shortName": "乐东黎族自治县",
+      "province": "海南省",
+      "longitude": 109.175444,
+      "latitude": 18.74758,
+      "importance": 20,
+      "aliases": [
+        "乐东黎族自治县"
+      ]
+    },
+    {
+      "id": "469028",
+      "adcode": "469028",
+      "name": "陵水黎族自治县",
+      "shortName": "陵水黎族自治县",
+      "province": "海南省",
+      "longitude": 110.037218,
+      "latitude": 18.505006,
+      "importance": 20,
+      "aliases": [
+        "陵水黎族自治县"
+      ]
+    },
+    {
+      "id": "469029",
+      "adcode": "469029",
+      "name": "保亭黎族苗族自治县",
+      "shortName": "保亭黎族苗族自治县",
+      "province": "海南省",
+      "longitude": 109.70245,
+      "latitude": 18.636371,
+      "importance": 20,
+      "aliases": [
+        "保亭黎族苗族自治县"
+      ]
+    },
+    {
+      "id": "469030",
+      "adcode": "469030",
+      "name": "琼中黎族苗族自治县",
+      "shortName": "琼中黎族苗族自治县",
+      "province": "海南省",
+      "longitude": 109.839996,
+      "latitude": 19.03557,
+      "importance": 20,
+      "aliases": [
+        "琼中黎族苗族自治县"
+      ]
+    },
+    {
+      "id": "500000",
+      "adcode": "500000",
+      "name": "重庆市",
+      "shortName": "重庆",
+      "province": "重庆市",
+      "longitude": 106.504962,
+      "latitude": 29.533155,
+      "importance": 100,
+      "aliases": [
+        "重庆市",
+        "重庆"
+      ]
+    },
+    {
+      "id": "510100",
+      "adcode": "510100",
+      "name": "成都市",
+      "shortName": "成都",
+      "province": "四川省",
+      "longitude": 104.065735,
+      "latitude": 30.659462,
+      "importance": 90,
+      "aliases": [
+        "成都市",
+        "成都"
+      ]
+    },
+    {
+      "id": "510300",
+      "adcode": "510300",
+      "name": "自贡市",
+      "shortName": "自贡",
+      "province": "四川省",
+      "longitude": 104.773447,
+      "latitude": 29.352765,
+      "importance": 20,
+      "aliases": [
+        "自贡市",
+        "自贡"
+      ]
+    },
+    {
+      "id": "510400",
+      "adcode": "510400",
+      "name": "攀枝花市",
+      "shortName": "攀枝花",
+      "province": "四川省",
+      "longitude": 101.716007,
+      "latitude": 26.580446,
+      "importance": 20,
+      "aliases": [
+        "攀枝花市",
+        "攀枝花"
+      ]
+    },
+    {
+      "id": "510500",
+      "adcode": "510500",
+      "name": "泸州市",
+      "shortName": "泸州",
+      "province": "四川省",
+      "longitude": 105.443348,
+      "latitude": 28.889138,
+      "importance": 20,
+      "aliases": [
+        "泸州市",
+        "泸州"
+      ]
+    },
+    {
+      "id": "510600",
+      "adcode": "510600",
+      "name": "德阳市",
+      "shortName": "德阳",
+      "province": "四川省",
+      "longitude": 104.398651,
+      "latitude": 31.127991,
+      "importance": 20,
+      "aliases": [
+        "德阳市",
+        "德阳"
+      ]
+    },
+    {
+      "id": "510700",
+      "adcode": "510700",
+      "name": "绵阳市",
+      "shortName": "绵阳",
+      "province": "四川省",
+      "longitude": 104.741722,
+      "latitude": 31.46402,
+      "importance": 20,
+      "aliases": [
+        "绵阳市",
+        "绵阳"
+      ]
+    },
+    {
+      "id": "510800",
+      "adcode": "510800",
+      "name": "广元市",
+      "shortName": "广元",
+      "province": "四川省",
+      "longitude": 105.829757,
+      "latitude": 32.433668,
+      "importance": 20,
+      "aliases": [
+        "广元市",
+        "广元"
+      ]
+    },
+    {
+      "id": "510900",
+      "adcode": "510900",
+      "name": "遂宁市",
+      "shortName": "遂宁",
+      "province": "四川省",
+      "longitude": 105.571331,
+      "latitude": 30.513311,
+      "importance": 20,
+      "aliases": [
+        "遂宁市",
+        "遂宁"
+      ]
+    },
+    {
+      "id": "511000",
+      "adcode": "511000",
+      "name": "内江市",
+      "shortName": "内江",
+      "province": "四川省",
+      "longitude": 105.066138,
+      "latitude": 29.58708,
+      "importance": 20,
+      "aliases": [
+        "内江市",
+        "内江"
+      ]
+    },
+    {
+      "id": "511100",
+      "adcode": "511100",
+      "name": "乐山市",
+      "shortName": "乐山",
+      "province": "四川省",
+      "longitude": 103.761263,
+      "latitude": 29.582024,
+      "importance": 20,
+      "aliases": [
+        "乐山市",
+        "乐山"
+      ]
+    },
+    {
+      "id": "511300",
+      "adcode": "511300",
+      "name": "南充市",
+      "shortName": "南充",
+      "province": "四川省",
+      "longitude": 106.082974,
+      "latitude": 30.795281,
+      "importance": 20,
+      "aliases": [
+        "南充市",
+        "南充"
+      ]
+    },
+    {
+      "id": "511400",
+      "adcode": "511400",
+      "name": "眉山市",
+      "shortName": "眉山",
+      "province": "四川省",
+      "longitude": 103.831788,
+      "latitude": 30.048318,
+      "importance": 20,
+      "aliases": [
+        "眉山市",
+        "眉山"
+      ]
+    },
+    {
+      "id": "511500",
+      "adcode": "511500",
+      "name": "宜宾市",
+      "shortName": "宜宾",
+      "province": "四川省",
+      "longitude": 104.630825,
+      "latitude": 28.760189,
+      "importance": 20,
+      "aliases": [
+        "宜宾市",
+        "宜宾"
+      ]
+    },
+    {
+      "id": "511600",
+      "adcode": "511600",
+      "name": "广安市",
+      "shortName": "广安",
+      "province": "四川省",
+      "longitude": 106.633369,
+      "latitude": 30.456398,
+      "importance": 20,
+      "aliases": [
+        "广安市",
+        "广安"
+      ]
+    },
+    {
+      "id": "511700",
+      "adcode": "511700",
+      "name": "达州市",
+      "shortName": "达州",
+      "province": "四川省",
+      "longitude": 107.502262,
+      "latitude": 31.209484,
+      "importance": 20,
+      "aliases": [
+        "达州市",
+        "达州"
+      ]
+    },
+    {
+      "id": "511800",
+      "adcode": "511800",
+      "name": "雅安市",
+      "shortName": "雅安",
+      "province": "四川省",
+      "longitude": 103.001033,
+      "latitude": 29.987722,
+      "importance": 20,
+      "aliases": [
+        "雅安市",
+        "雅安"
+      ]
+    },
+    {
+      "id": "511900",
+      "adcode": "511900",
+      "name": "巴中市",
+      "shortName": "巴中",
+      "province": "四川省",
+      "longitude": 106.753669,
+      "latitude": 31.858809,
+      "importance": 20,
+      "aliases": [
+        "巴中市",
+        "巴中"
+      ]
+    },
+    {
+      "id": "512000",
+      "adcode": "512000",
+      "name": "资阳市",
+      "shortName": "资阳",
+      "province": "四川省",
+      "longitude": 104.641917,
+      "latitude": 30.122211,
+      "importance": 20,
+      "aliases": [
+        "资阳市",
+        "资阳"
+      ]
+    },
+    {
+      "id": "513200",
+      "adcode": "513200",
+      "name": "阿坝藏族羌族自治州",
+      "shortName": "阿坝藏族羌族",
+      "province": "四川省",
+      "longitude": 102.221374,
+      "latitude": 31.899792,
+      "importance": 20,
+      "aliases": [
+        "阿坝藏族羌族自治州",
+        "阿坝藏族羌族"
+      ]
+    },
+    {
+      "id": "513300",
+      "adcode": "513300",
+      "name": "甘孜藏族自治州",
+      "shortName": "甘孜藏族",
+      "province": "四川省",
+      "longitude": 101.963815,
+      "latitude": 30.050663,
+      "importance": 20,
+      "aliases": [
+        "甘孜藏族自治州",
+        "甘孜藏族"
+      ]
+    },
+    {
+      "id": "513400",
+      "adcode": "513400",
+      "name": "凉山彝族自治州",
+      "shortName": "凉山彝族",
+      "province": "四川省",
+      "longitude": 102.258746,
+      "latitude": 27.886762,
+      "importance": 20,
+      "aliases": [
+        "凉山彝族自治州",
+        "凉山彝族"
+      ]
+    },
+    {
+      "id": "520100",
+      "adcode": "520100",
+      "name": "贵阳市",
+      "shortName": "贵阳",
+      "province": "贵州省",
+      "longitude": 106.713478,
+      "latitude": 26.578343,
+      "importance": 90,
+      "aliases": [
+        "贵阳市",
+        "贵阳"
+      ]
+    },
+    {
+      "id": "520200",
+      "adcode": "520200",
+      "name": "六盘水市",
+      "shortName": "六盘水",
+      "province": "贵州省",
+      "longitude": 104.846743,
+      "latitude": 26.584643,
+      "importance": 20,
+      "aliases": [
+        "六盘水市",
+        "六盘水"
+      ]
+    },
+    {
+      "id": "520300",
+      "adcode": "520300",
+      "name": "遵义市",
+      "shortName": "遵义",
+      "province": "贵州省",
+      "longitude": 106.937265,
+      "latitude": 27.706626,
+      "importance": 20,
+      "aliases": [
+        "遵义市",
+        "遵义"
+      ]
+    },
+    {
+      "id": "520400",
+      "adcode": "520400",
+      "name": "安顺市",
+      "shortName": "安顺",
+      "province": "贵州省",
+      "longitude": 105.932188,
+      "latitude": 26.245544,
+      "importance": 20,
+      "aliases": [
+        "安顺市",
+        "安顺"
+      ]
+    },
+    {
+      "id": "520500",
+      "adcode": "520500",
+      "name": "毕节市",
+      "shortName": "毕节",
+      "province": "贵州省",
+      "longitude": 105.28501,
+      "latitude": 27.301693,
+      "importance": 20,
+      "aliases": [
+        "毕节市",
+        "毕节"
+      ]
+    },
+    {
+      "id": "520600",
+      "adcode": "520600",
+      "name": "铜仁市",
+      "shortName": "铜仁",
+      "province": "贵州省",
+      "longitude": 109.191555,
+      "latitude": 27.718346,
+      "importance": 20,
+      "aliases": [
+        "铜仁市",
+        "铜仁"
+      ]
+    },
+    {
+      "id": "522300",
+      "adcode": "522300",
+      "name": "黔西南布依族苗族自治州",
+      "shortName": "黔西南布依族苗族",
+      "province": "贵州省",
+      "longitude": 104.897971,
+      "latitude": 25.08812,
+      "importance": 20,
+      "aliases": [
+        "黔西南布依族苗族自治州",
+        "黔西南布依族苗族"
+      ]
+    },
+    {
+      "id": "522600",
+      "adcode": "522600",
+      "name": "黔东南苗族侗族自治州",
+      "shortName": "黔东南苗族侗族",
+      "province": "贵州省",
+      "longitude": 107.977488,
+      "latitude": 26.583352,
+      "importance": 20,
+      "aliases": [
+        "黔东南苗族侗族自治州",
+        "黔东南苗族侗族"
+      ]
+    },
+    {
+      "id": "522700",
+      "adcode": "522700",
+      "name": "黔南布依族苗族自治州",
+      "shortName": "黔南布依族苗族",
+      "province": "贵州省",
+      "longitude": 107.517156,
+      "latitude": 26.258219,
+      "importance": 20,
+      "aliases": [
+        "黔南布依族苗族自治州",
+        "黔南布依族苗族"
+      ]
+    },
+    {
+      "id": "530100",
+      "adcode": "530100",
+      "name": "昆明市",
+      "shortName": "昆明",
+      "province": "云南省",
+      "longitude": 102.712251,
+      "latitude": 25.040609,
+      "importance": 90,
+      "aliases": [
+        "昆明市",
+        "昆明"
+      ]
+    },
+    {
+      "id": "530300",
+      "adcode": "530300",
+      "name": "曲靖市",
+      "shortName": "曲靖",
+      "province": "云南省",
+      "longitude": 103.797851,
+      "latitude": 25.501557,
+      "importance": 20,
+      "aliases": [
+        "曲靖市",
+        "曲靖"
+      ]
+    },
+    {
+      "id": "530400",
+      "adcode": "530400",
+      "name": "玉溪市",
+      "shortName": "玉溪",
+      "province": "云南省",
+      "longitude": 102.543907,
+      "latitude": 24.350461,
+      "importance": 20,
+      "aliases": [
+        "玉溪市",
+        "玉溪"
+      ]
+    },
+    {
+      "id": "530500",
+      "adcode": "530500",
+      "name": "保山市",
+      "shortName": "保山",
+      "province": "云南省",
+      "longitude": 99.167133,
+      "latitude": 25.111802,
+      "importance": 20,
+      "aliases": [
+        "保山市",
+        "保山"
+      ]
+    },
+    {
+      "id": "530600",
+      "adcode": "530600",
+      "name": "昭通市",
+      "shortName": "昭通",
+      "province": "云南省",
+      "longitude": 103.717216,
+      "latitude": 27.336999,
+      "importance": 20,
+      "aliases": [
+        "昭通市",
+        "昭通"
+      ]
+    },
+    {
+      "id": "530700",
+      "adcode": "530700",
+      "name": "丽江市",
+      "shortName": "丽江",
+      "province": "云南省",
+      "longitude": 100.233026,
+      "latitude": 26.872108,
+      "importance": 20,
+      "aliases": [
+        "丽江市",
+        "丽江"
+      ]
+    },
+    {
+      "id": "530800",
+      "adcode": "530800",
+      "name": "普洱市",
+      "shortName": "普洱",
+      "province": "云南省",
+      "longitude": 100.972344,
+      "latitude": 22.777321,
+      "importance": 20,
+      "aliases": [
+        "普洱市",
+        "普洱"
+      ]
+    },
+    {
+      "id": "530900",
+      "adcode": "530900",
+      "name": "临沧市",
+      "shortName": "临沧",
+      "province": "云南省",
+      "longitude": 100.08697,
+      "latitude": 23.886567,
+      "importance": 20,
+      "aliases": [
+        "临沧市",
+        "临沧"
+      ]
+    },
+    {
+      "id": "532300",
+      "adcode": "532300",
+      "name": "楚雄彝族自治州",
+      "shortName": "楚雄彝族",
+      "province": "云南省",
+      "longitude": 101.546046,
+      "latitude": 25.041988,
+      "importance": 20,
+      "aliases": [
+        "楚雄彝族自治州",
+        "楚雄彝族"
+      ]
+    },
+    {
+      "id": "532500",
+      "adcode": "532500",
+      "name": "红河哈尼族彝族自治州",
+      "shortName": "红河哈尼族彝族",
+      "province": "云南省",
+      "longitude": 103.384182,
+      "latitude": 23.366775,
+      "importance": 20,
+      "aliases": [
+        "红河哈尼族彝族自治州",
+        "红河哈尼族彝族"
+      ]
+    },
+    {
+      "id": "532600",
+      "adcode": "532600",
+      "name": "文山壮族苗族自治州",
+      "shortName": "文山壮族苗族",
+      "province": "云南省",
+      "longitude": 104.24401,
+      "latitude": 23.36951,
+      "importance": 20,
+      "aliases": [
+        "文山壮族苗族自治州",
+        "文山壮族苗族"
+      ]
+    },
+    {
+      "id": "532800",
+      "adcode": "532800",
+      "name": "西双版纳傣族自治州",
+      "shortName": "西双版纳傣族",
+      "province": "云南省",
+      "longitude": 100.797941,
+      "latitude": 22.001724,
+      "importance": 20,
+      "aliases": [
+        "西双版纳傣族自治州",
+        "西双版纳傣族"
+      ]
+    },
+    {
+      "id": "532900",
+      "adcode": "532900",
+      "name": "大理白族自治州",
+      "shortName": "大理白族",
+      "province": "云南省",
+      "longitude": 100.225668,
+      "latitude": 25.589449,
+      "importance": 20,
+      "aliases": [
+        "大理白族自治州",
+        "大理白族"
+      ]
+    },
+    {
+      "id": "533100",
+      "adcode": "533100",
+      "name": "德宏傣族景颇族自治州",
+      "shortName": "德宏傣族景颇族",
+      "province": "云南省",
+      "longitude": 98.578363,
+      "latitude": 24.436694,
+      "importance": 20,
+      "aliases": [
+        "德宏傣族景颇族自治州",
+        "德宏傣族景颇族"
+      ]
+    },
+    {
+      "id": "533300",
+      "adcode": "533300",
+      "name": "怒江傈僳族自治州",
+      "shortName": "怒江傈僳族",
+      "province": "云南省",
+      "longitude": 98.854304,
+      "latitude": 25.850949,
+      "importance": 20,
+      "aliases": [
+        "怒江傈僳族自治州",
+        "怒江傈僳族"
+      ]
+    },
+    {
+      "id": "533400",
+      "adcode": "533400",
+      "name": "迪庆藏族自治州",
+      "shortName": "迪庆藏族",
+      "province": "云南省",
+      "longitude": 99.706463,
+      "latitude": 27.826853,
+      "importance": 20,
+      "aliases": [
+        "迪庆藏族自治州",
+        "迪庆藏族"
+      ]
+    },
+    {
+      "id": "540100",
+      "adcode": "540100",
+      "name": "拉萨市",
+      "shortName": "拉萨",
+      "province": "西藏自治区",
+      "longitude": 91.132212,
+      "latitude": 29.660361,
+      "importance": 90,
+      "aliases": [
+        "拉萨市",
+        "拉萨"
+      ]
+    },
+    {
+      "id": "540200",
+      "adcode": "540200",
+      "name": "日喀则市",
+      "shortName": "日喀则",
+      "province": "西藏自治区",
+      "longitude": 88.885148,
+      "latitude": 29.267519,
+      "importance": 20,
+      "aliases": [
+        "日喀则市",
+        "日喀则"
+      ]
+    },
+    {
+      "id": "540300",
+      "adcode": "540300",
+      "name": "昌都市",
+      "shortName": "昌都",
+      "province": "西藏自治区",
+      "longitude": 97.178452,
+      "latitude": 31.136875,
+      "importance": 20,
+      "aliases": [
+        "昌都市",
+        "昌都"
+      ]
+    },
+    {
+      "id": "540400",
+      "adcode": "540400",
+      "name": "林芝市",
+      "shortName": "林芝",
+      "province": "西藏自治区",
+      "longitude": 94.362348,
+      "latitude": 29.654693,
+      "importance": 20,
+      "aliases": [
+        "林芝市",
+        "林芝"
+      ]
+    },
+    {
+      "id": "540500",
+      "adcode": "540500",
+      "name": "山南市",
+      "shortName": "山南",
+      "province": "西藏自治区",
+      "longitude": 91.766529,
+      "latitude": 29.236023,
+      "importance": 20,
+      "aliases": [
+        "山南市",
+        "山南"
+      ]
+    },
+    {
+      "id": "540600",
+      "adcode": "540600",
+      "name": "那曲市",
+      "shortName": "那曲",
+      "province": "西藏自治区",
+      "longitude": 92.060214,
+      "latitude": 31.476004,
+      "importance": 20,
+      "aliases": [
+        "那曲市",
+        "那曲"
+      ]
+    },
+    {
+      "id": "542500",
+      "adcode": "542500",
+      "name": "阿里地区",
+      "shortName": "阿里",
+      "province": "西藏自治区",
+      "longitude": 80.105498,
+      "latitude": 32.503187,
+      "importance": 20,
+      "aliases": [
+        "阿里地区",
+        "阿里"
+      ]
+    },
+    {
+      "id": "610100",
+      "adcode": "610100",
+      "name": "西安市",
+      "shortName": "西安",
+      "province": "陕西省",
+      "longitude": 108.948024,
+      "latitude": 34.263161,
+      "importance": 90,
+      "aliases": [
+        "西安市",
+        "西安"
+      ]
+    },
+    {
+      "id": "610200",
+      "adcode": "610200",
+      "name": "铜川市",
+      "shortName": "铜川",
+      "province": "陕西省",
+      "longitude": 108.979608,
+      "latitude": 34.916582,
+      "importance": 20,
+      "aliases": [
+        "铜川市",
+        "铜川"
+      ]
+    },
+    {
+      "id": "610300",
+      "adcode": "610300",
+      "name": "宝鸡市",
+      "shortName": "宝鸡",
+      "province": "陕西省",
+      "longitude": 107.14487,
+      "latitude": 34.369315,
+      "importance": 20,
+      "aliases": [
+        "宝鸡市",
+        "宝鸡"
+      ]
+    },
+    {
+      "id": "610400",
+      "adcode": "610400",
+      "name": "咸阳市",
+      "shortName": "咸阳",
+      "province": "陕西省",
+      "longitude": 108.705117,
+      "latitude": 34.333439,
+      "importance": 20,
+      "aliases": [
+        "咸阳市",
+        "咸阳"
+      ]
+    },
+    {
+      "id": "610500",
+      "adcode": "610500",
+      "name": "渭南市",
+      "shortName": "渭南",
+      "province": "陕西省",
+      "longitude": 109.502882,
+      "latitude": 34.499381,
+      "importance": 20,
+      "aliases": [
+        "渭南市",
+        "渭南"
+      ]
+    },
+    {
+      "id": "610600",
+      "adcode": "610600",
+      "name": "延安市",
+      "shortName": "延安",
+      "province": "陕西省",
+      "longitude": 109.49081,
+      "latitude": 36.596537,
+      "importance": 20,
+      "aliases": [
+        "延安市",
+        "延安"
+      ]
+    },
+    {
+      "id": "610700",
+      "adcode": "610700",
+      "name": "汉中市",
+      "shortName": "汉中",
+      "province": "陕西省",
+      "longitude": 107.028621,
+      "latitude": 33.077668,
+      "importance": 20,
+      "aliases": [
+        "汉中市",
+        "汉中"
+      ]
+    },
+    {
+      "id": "610800",
+      "adcode": "610800",
+      "name": "榆林市",
+      "shortName": "榆林",
+      "province": "陕西省",
+      "longitude": 109.741193,
+      "latitude": 38.290162,
+      "importance": 20,
+      "aliases": [
+        "榆林市",
+        "榆林"
+      ]
+    },
+    {
+      "id": "610900",
+      "adcode": "610900",
+      "name": "安康市",
+      "shortName": "安康",
+      "province": "陕西省",
+      "longitude": 109.029273,
+      "latitude": 32.6903,
+      "importance": 20,
+      "aliases": [
+        "安康市",
+        "安康"
+      ]
+    },
+    {
+      "id": "611000",
+      "adcode": "611000",
+      "name": "商洛市",
+      "shortName": "商洛",
+      "province": "陕西省",
+      "longitude": 109.939776,
+      "latitude": 33.868319,
+      "importance": 20,
+      "aliases": [
+        "商洛市",
+        "商洛"
+      ]
+    },
+    {
+      "id": "620100",
+      "adcode": "620100",
+      "name": "兰州市",
+      "shortName": "兰州",
+      "province": "甘肃省",
+      "longitude": 103.823557,
+      "latitude": 36.058039,
+      "importance": 90,
+      "aliases": [
+        "兰州市",
+        "兰州"
+      ]
+    },
+    {
+      "id": "620200",
+      "adcode": "620200",
+      "name": "嘉峪关市",
+      "shortName": "嘉峪关",
+      "province": "甘肃省",
+      "longitude": 98.277304,
+      "latitude": 39.786529,
+      "importance": 20,
+      "aliases": [
+        "嘉峪关市",
+        "嘉峪关"
+      ]
+    },
+    {
+      "id": "620300",
+      "adcode": "620300",
+      "name": "金昌市",
+      "shortName": "金昌",
+      "province": "甘肃省",
+      "longitude": 102.187888,
+      "latitude": 38.514238,
+      "importance": 20,
+      "aliases": [
+        "金昌市",
+        "金昌"
+      ]
+    },
+    {
+      "id": "620400",
+      "adcode": "620400",
+      "name": "白银市",
+      "shortName": "白银",
+      "province": "甘肃省",
+      "longitude": 104.173606,
+      "latitude": 36.54568,
+      "importance": 20,
+      "aliases": [
+        "白银市",
+        "白银"
+      ]
+    },
+    {
+      "id": "620500",
+      "adcode": "620500",
+      "name": "天水市",
+      "shortName": "天水",
+      "province": "甘肃省",
+      "longitude": 105.724998,
+      "latitude": 34.578529,
+      "importance": 20,
+      "aliases": [
+        "天水市",
+        "天水"
+      ]
+    },
+    {
+      "id": "620600",
+      "adcode": "620600",
+      "name": "武威市",
+      "shortName": "武威",
+      "province": "甘肃省",
+      "longitude": 102.634697,
+      "latitude": 37.929996,
+      "importance": 20,
+      "aliases": [
+        "武威市",
+        "武威"
+      ]
+    },
+    {
+      "id": "620700",
+      "adcode": "620700",
+      "name": "张掖市",
+      "shortName": "张掖",
+      "province": "甘肃省",
+      "longitude": 100.455472,
+      "latitude": 38.932897,
+      "importance": 20,
+      "aliases": [
+        "张掖市",
+        "张掖"
+      ]
+    },
+    {
+      "id": "620800",
+      "adcode": "620800",
+      "name": "平凉市",
+      "shortName": "平凉",
+      "province": "甘肃省",
+      "longitude": 106.684691,
+      "latitude": 35.54279,
+      "importance": 20,
+      "aliases": [
+        "平凉市",
+        "平凉"
+      ]
+    },
+    {
+      "id": "620900",
+      "adcode": "620900",
+      "name": "酒泉市",
+      "shortName": "酒泉",
+      "province": "甘肃省",
+      "longitude": 98.510795,
+      "latitude": 39.744023,
+      "importance": 20,
+      "aliases": [
+        "酒泉市",
+        "酒泉"
+      ]
+    },
+    {
+      "id": "621000",
+      "adcode": "621000",
+      "name": "庆阳市",
+      "shortName": "庆阳",
+      "province": "甘肃省",
+      "longitude": 107.638372,
+      "latitude": 35.734218,
+      "importance": 20,
+      "aliases": [
+        "庆阳市",
+        "庆阳"
+      ]
+    },
+    {
+      "id": "621100",
+      "adcode": "621100",
+      "name": "定西市",
+      "shortName": "定西",
+      "province": "甘肃省",
+      "longitude": 104.626294,
+      "latitude": 35.579578,
+      "importance": 20,
+      "aliases": [
+        "定西市",
+        "定西"
+      ]
+    },
+    {
+      "id": "621200",
+      "adcode": "621200",
+      "name": "陇南市",
+      "shortName": "陇南",
+      "province": "甘肃省",
+      "longitude": 104.929379,
+      "latitude": 33.388598,
+      "importance": 20,
+      "aliases": [
+        "陇南市",
+        "陇南"
+      ]
+    },
+    {
+      "id": "622900",
+      "adcode": "622900",
+      "name": "临夏回族自治州",
+      "shortName": "临夏回族",
+      "province": "甘肃省",
+      "longitude": 103.212006,
+      "latitude": 35.599446,
+      "importance": 20,
+      "aliases": [
+        "临夏回族自治州",
+        "临夏回族"
+      ]
+    },
+    {
+      "id": "623000",
+      "adcode": "623000",
+      "name": "甘南藏族自治州",
+      "shortName": "甘南藏族",
+      "province": "甘肃省",
+      "longitude": 102.911008,
+      "latitude": 34.986354,
+      "importance": 20,
+      "aliases": [
+        "甘南藏族自治州",
+        "甘南藏族"
+      ]
+    },
+    {
+      "id": "630100",
+      "adcode": "630100",
+      "name": "西宁市",
+      "shortName": "西宁",
+      "province": "青海省",
+      "longitude": 101.778916,
+      "latitude": 36.623178,
+      "importance": 90,
+      "aliases": [
+        "西宁市",
+        "西宁"
+      ]
+    },
+    {
+      "id": "630200",
+      "adcode": "630200",
+      "name": "海东市",
+      "shortName": "海东",
+      "province": "青海省",
+      "longitude": 102.10327,
+      "latitude": 36.502916,
+      "importance": 20,
+      "aliases": [
+        "海东市",
+        "海东"
+      ]
+    },
+    {
+      "id": "632200",
+      "adcode": "632200",
+      "name": "海北藏族自治州",
+      "shortName": "海北藏族",
+      "province": "青海省",
+      "longitude": 100.901059,
+      "latitude": 36.959435,
+      "importance": 20,
+      "aliases": [
+        "海北藏族自治州",
+        "海北藏族"
+      ]
+    },
+    {
+      "id": "632300",
+      "adcode": "632300",
+      "name": "黄南藏族自治州",
+      "shortName": "黄南藏族",
+      "province": "青海省",
+      "longitude": 102.019988,
+      "latitude": 35.517744,
+      "importance": 20,
+      "aliases": [
+        "黄南藏族自治州",
+        "黄南藏族"
+      ]
+    },
+    {
+      "id": "632500",
+      "adcode": "632500",
+      "name": "海南藏族自治州",
+      "shortName": "海南藏族",
+      "province": "青海省",
+      "longitude": 100.619542,
+      "latitude": 36.280353,
+      "importance": 20,
+      "aliases": [
+        "海南藏族自治州",
+        "海南藏族"
+      ]
+    },
+    {
+      "id": "632600",
+      "adcode": "632600",
+      "name": "果洛藏族自治州",
+      "shortName": "果洛藏族",
+      "province": "青海省",
+      "longitude": 100.242143,
+      "latitude": 34.4736,
+      "importance": 20,
+      "aliases": [
+        "果洛藏族自治州",
+        "果洛藏族"
+      ]
+    },
+    {
+      "id": "632700",
+      "adcode": "632700",
+      "name": "玉树藏族自治州",
+      "shortName": "玉树藏族",
+      "province": "青海省",
+      "longitude": 97.008522,
+      "latitude": 33.004049,
+      "importance": 20,
+      "aliases": [
+        "玉树藏族自治州",
+        "玉树藏族"
+      ]
+    },
+    {
+      "id": "632800",
+      "adcode": "632800",
+      "name": "海西蒙古族藏族自治州",
+      "shortName": "海西蒙古族藏族",
+      "province": "青海省",
+      "longitude": 97.370785,
+      "latitude": 37.374663,
+      "importance": 20,
+      "aliases": [
+        "海西蒙古族藏族自治州",
+        "海西蒙古族藏族"
+      ]
+    },
+    {
+      "id": "640100",
+      "adcode": "640100",
+      "name": "银川市",
+      "shortName": "银川",
+      "province": "宁夏回族自治区",
+      "longitude": 106.278179,
+      "latitude": 38.46637,
+      "importance": 90,
+      "aliases": [
+        "银川市",
+        "银川"
+      ]
+    },
+    {
+      "id": "640200",
+      "adcode": "640200",
+      "name": "石嘴山市",
+      "shortName": "石嘴山",
+      "province": "宁夏回族自治区",
+      "longitude": 106.376173,
+      "latitude": 39.01333,
+      "importance": 20,
+      "aliases": [
+        "石嘴山市",
+        "石嘴山"
+      ]
+    },
+    {
+      "id": "640300",
+      "adcode": "640300",
+      "name": "吴忠市",
+      "shortName": "吴忠",
+      "province": "宁夏回族自治区",
+      "longitude": 106.199409,
+      "latitude": 37.986165,
+      "importance": 20,
+      "aliases": [
+        "吴忠市",
+        "吴忠"
+      ]
+    },
+    {
+      "id": "640400",
+      "adcode": "640400",
+      "name": "固原市",
+      "shortName": "固原",
+      "province": "宁夏回族自治区",
+      "longitude": 106.285241,
+      "latitude": 36.004561,
+      "importance": 20,
+      "aliases": [
+        "固原市",
+        "固原"
+      ]
+    },
+    {
+      "id": "640500",
+      "adcode": "640500",
+      "name": "中卫市",
+      "shortName": "中卫",
+      "province": "宁夏回族自治区",
+      "longitude": 105.189568,
+      "latitude": 37.514951,
+      "importance": 20,
+      "aliases": [
+        "中卫市",
+        "中卫"
+      ]
+    },
+    {
+      "id": "650100",
+      "adcode": "650100",
+      "name": "乌鲁木齐市",
+      "shortName": "乌鲁木齐",
+      "province": "新疆维吾尔自治区",
+      "longitude": 87.617733,
+      "latitude": 43.792818,
+      "importance": 90,
+      "aliases": [
+        "乌鲁木齐市",
+        "乌鲁木齐"
+      ]
+    },
+    {
+      "id": "650200",
+      "adcode": "650200",
+      "name": "克拉玛依市",
+      "shortName": "克拉玛依",
+      "province": "新疆维吾尔自治区",
+      "longitude": 84.873946,
+      "latitude": 45.595886,
+      "importance": 20,
+      "aliases": [
+        "克拉玛依市",
+        "克拉玛依"
+      ]
+    },
+    {
+      "id": "650400",
+      "adcode": "650400",
+      "name": "吐鲁番市",
+      "shortName": "吐鲁番",
+      "province": "新疆维吾尔自治区",
+      "longitude": 89.184078,
+      "latitude": 42.947613,
+      "importance": 20,
+      "aliases": [
+        "吐鲁番市",
+        "吐鲁番"
+      ]
+    },
+    {
+      "id": "650500",
+      "adcode": "650500",
+      "name": "哈密市",
+      "shortName": "哈密",
+      "province": "新疆维吾尔自治区",
+      "longitude": 93.51316,
+      "latitude": 42.833248,
+      "importance": 20,
+      "aliases": [
+        "哈密市",
+        "哈密"
+      ]
+    },
+    {
+      "id": "652300",
+      "adcode": "652300",
+      "name": "昌吉回族自治州",
+      "shortName": "昌吉回族",
+      "province": "新疆维吾尔自治区",
+      "longitude": 87.304012,
+      "latitude": 44.014577,
+      "importance": 20,
+      "aliases": [
+        "昌吉回族自治州",
+        "昌吉回族"
+      ]
+    },
+    {
+      "id": "652700",
+      "adcode": "652700",
+      "name": "博尔塔拉蒙古自治州",
+      "shortName": "博尔塔拉蒙古",
+      "province": "新疆维吾尔自治区",
+      "longitude": 82.074778,
+      "latitude": 44.903258,
+      "importance": 20,
+      "aliases": [
+        "博尔塔拉蒙古自治州",
+        "博尔塔拉蒙古"
+      ]
+    },
+    {
+      "id": "652800",
+      "adcode": "652800",
+      "name": "巴音郭楞蒙古自治州",
+      "shortName": "巴音郭楞蒙古",
+      "province": "新疆维吾尔自治区",
+      "longitude": 86.150969,
+      "latitude": 41.768552,
+      "importance": 20,
+      "aliases": [
+        "巴音郭楞蒙古自治州",
+        "巴音郭楞蒙古"
+      ]
+    },
+    {
+      "id": "652900",
+      "adcode": "652900",
+      "name": "阿克苏地区",
+      "shortName": "阿克苏",
+      "province": "新疆维吾尔自治区",
+      "longitude": 80.265068,
+      "latitude": 41.170712,
+      "importance": 20,
+      "aliases": [
+        "阿克苏地区",
+        "阿克苏"
+      ]
+    },
+    {
+      "id": "653000",
+      "adcode": "653000",
+      "name": "克孜勒苏柯尔克孜自治州",
+      "shortName": "克孜勒苏柯尔克孜",
+      "province": "新疆维吾尔自治区",
+      "longitude": 76.172825,
+      "latitude": 39.713431,
+      "importance": 20,
+      "aliases": [
+        "克孜勒苏柯尔克孜自治州",
+        "克孜勒苏柯尔克孜"
+      ]
+    },
+    {
+      "id": "653100",
+      "adcode": "653100",
+      "name": "喀什地区",
+      "shortName": "喀什",
+      "province": "新疆维吾尔自治区",
+      "longitude": 75.989138,
+      "latitude": 39.467664,
+      "importance": 20,
+      "aliases": [
+        "喀什地区",
+        "喀什"
+      ]
+    },
+    {
+      "id": "653200",
+      "adcode": "653200",
+      "name": "和田地区",
+      "shortName": "和田",
+      "province": "新疆维吾尔自治区",
+      "longitude": 79.92533,
+      "latitude": 37.110687,
+      "importance": 20,
+      "aliases": [
+        "和田地区",
+        "和田"
+      ]
+    },
+    {
+      "id": "654000",
+      "adcode": "654000",
+      "name": "伊犁哈萨克自治州",
+      "shortName": "伊犁哈萨克",
+      "province": "新疆维吾尔自治区",
+      "longitude": 81.317946,
+      "latitude": 43.92186,
+      "importance": 20,
+      "aliases": [
+        "伊犁哈萨克自治州",
+        "伊犁哈萨克"
+      ]
+    },
+    {
+      "id": "654200",
+      "adcode": "654200",
+      "name": "塔城地区",
+      "shortName": "塔城",
+      "province": "新疆维吾尔自治区",
+      "longitude": 82.985732,
+      "latitude": 46.746301,
+      "importance": 20,
+      "aliases": [
+        "塔城地区",
+        "塔城"
+      ]
+    },
+    {
+      "id": "654300",
+      "adcode": "654300",
+      "name": "阿勒泰地区",
+      "shortName": "阿勒泰",
+      "province": "新疆维吾尔自治区",
+      "longitude": 88.13963,
+      "latitude": 47.848393,
+      "importance": 20,
+      "aliases": [
+        "阿勒泰地区",
+        "阿勒泰"
+      ]
+    },
+    {
+      "id": "659001",
+      "adcode": "659001",
+      "name": "石河子市",
+      "shortName": "石河子",
+      "province": "新疆维吾尔自治区",
+      "longitude": 86.041075,
+      "latitude": 44.305886,
+      "importance": 20,
+      "aliases": [
+        "石河子市",
+        "石河子"
+      ]
+    },
+    {
+      "id": "659002",
+      "adcode": "659002",
+      "name": "阿拉尔市",
+      "shortName": "阿拉尔",
+      "province": "新疆维吾尔自治区",
+      "longitude": 81.285884,
+      "latitude": 40.541914,
+      "importance": 20,
+      "aliases": [
+        "阿拉尔市",
+        "阿拉尔"
+      ]
+    },
+    {
+      "id": "659003",
+      "adcode": "659003",
+      "name": "图木舒克市",
+      "shortName": "图木舒克",
+      "province": "新疆维吾尔自治区",
+      "longitude": 79.077978,
+      "latitude": 39.867316,
+      "importance": 20,
+      "aliases": [
+        "图木舒克市",
+        "图木舒克"
+      ]
+    },
+    {
+      "id": "659004",
+      "adcode": "659004",
+      "name": "五家渠市",
+      "shortName": "五家渠",
+      "province": "新疆维吾尔自治区",
+      "longitude": 87.526884,
+      "latitude": 44.167401,
+      "importance": 20,
+      "aliases": [
+        "五家渠市",
+        "五家渠"
+      ]
+    },
+    {
+      "id": "659005",
+      "adcode": "659005",
+      "name": "北屯市",
+      "shortName": "北屯",
+      "province": "新疆维吾尔自治区",
+      "longitude": 87.824932,
+      "latitude": 47.353177,
+      "importance": 20,
+      "aliases": [
+        "北屯市",
+        "北屯"
+      ]
+    },
+    {
+      "id": "659006",
+      "adcode": "659006",
+      "name": "铁门关市",
+      "shortName": "铁门关",
+      "province": "新疆维吾尔自治区",
+      "longitude": 85.501218,
+      "latitude": 41.827251,
+      "importance": 20,
+      "aliases": [
+        "铁门关市",
+        "铁门关"
+      ]
+    },
+    {
+      "id": "659007",
+      "adcode": "659007",
+      "name": "双河市",
+      "shortName": "双河",
+      "province": "新疆维吾尔自治区",
+      "longitude": 82.353656,
+      "latitude": 44.840524,
+      "importance": 20,
+      "aliases": [
+        "双河市",
+        "双河"
+      ]
+    },
+    {
+      "id": "659008",
+      "adcode": "659008",
+      "name": "可克达拉市",
+      "shortName": "可克达拉",
+      "province": "新疆维吾尔自治区",
+      "longitude": 80.63579,
+      "latitude": 43.6832,
+      "importance": 20,
+      "aliases": [
+        "可克达拉市",
+        "可克达拉"
+      ]
+    },
+    {
+      "id": "659009",
+      "adcode": "659009",
+      "name": "昆玉市",
+      "shortName": "昆玉",
+      "province": "新疆维吾尔自治区",
+      "longitude": 79.287372,
+      "latitude": 37.207994,
+      "importance": 20,
+      "aliases": [
+        "昆玉市",
+        "昆玉"
+      ]
+    },
+    {
+      "id": "659010",
+      "adcode": "659010",
+      "name": "胡杨河市",
+      "shortName": "胡杨河",
+      "province": "新疆维吾尔自治区",
+      "longitude": 84.8275959,
+      "latitude": 44.69288853,
+      "importance": 20,
+      "aliases": [
+        "胡杨河市",
+        "胡杨河"
+      ]
+    },
+    {
+      "id": "710000",
+      "adcode": "710000",
+      "name": "台湾省",
+      "shortName": "台湾省",
+      "province": "台湾省",
+      "longitude": 121.509062,
+      "latitude": 25.044332,
+      "importance": 100,
+      "aliases": [
+        "台湾省"
+      ]
+    },
+    {
+      "id": "810000",
+      "adcode": "810000",
+      "name": "香港特别行政区",
+      "shortName": "香港",
+      "province": "香港特别行政区",
+      "longitude": 114.173355,
+      "latitude": 22.320048,
+      "importance": 100,
+      "aliases": [
+        "香港特别行政区",
+        "香港"
+      ]
+    },
+    {
+      "id": "820000",
+      "adcode": "820000",
+      "name": "澳门特别行政区",
+      "shortName": "澳门",
+      "province": "澳门特别行政区",
+      "longitude": 113.54909,
+      "latitude": 22.198951,
+      "importance": 100,
+      "aliases": [
+        "澳门特别行政区",
+        "澳门"
+      ]
+    }
+  ]
+}
