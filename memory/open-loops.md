@@ -8,10 +8,11 @@ status: active
 
 # Open loops
 
-## 配置正式自定义域名
+## 确认自定义域名拼写
 
-- **状态**：待下一次部署时处理
-- **已知偏好**：优先使用 `wellhong.dev`。
-- **下一步**：部署前提出 2–3 个子域名前缀候选（当前项目可先考虑 `qingyu.wellhong.dev`），
-  检查 Cloudflare zone、DNS、证书与路由后再绑定。
+- **状态**：当前项目已完成绑定，但拼写需留档确认
+- **用户偏好**：优先使用 `wellhong.dev`。
+- **实际绑定**：账号内 active zone 是 `willhong.dev`，当前项目为 `https://qingyu.willhong.dev`。
+- **下一步**：如果用户确认确实要两个 e 的 `wellhong.dev`，需先把该 zone 加入当前 Cloudflare 账号并完成
+  nameserver/DNS 验证，再决定是否迁移入口。
 - **当前回退地址**：`https://qingyu-weather-map.haruhowell.workers.dev`

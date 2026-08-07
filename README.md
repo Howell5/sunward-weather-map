@@ -2,7 +2,9 @@
 
 一张以全国视野查看当前与未来七天天气的中国地图。
 
-线上版本：<https://qingyu-weather-map.haruhowell.workers.dev>
+线上版本：<https://qingyu.willhong.dev>
+
+备用预览地址：<https://qingyu-weather-map.haruhowell.workers.dev>
 
 ![晴域地图预览](outputs/qingyu-region-highlight.png)
 
@@ -49,6 +51,8 @@ GitHub Actions 会在 push 和 pull request 时自动运行同样的检查。
 ## 发布到 Cloudflare
 
 项目使用 Cloudflare Workers Static Assets，无需单独后端。
+
+正式入口为 `https://qingyu.willhong.dev`；`workers.dev` 地址保留作回退和部署验证。
 
 ```bash
 npx wrangler login
