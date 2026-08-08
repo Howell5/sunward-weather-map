@@ -24,3 +24,19 @@ review number requirements, attribution, and update cadence, then replace these 
 The interface says “预计” and “模型数据” because current conditions and forecasts are model
 outputs, not promises or guaranteed station observations. Commercial use must move to a suitable
 paid endpoint and re-check the current provider terms.
+
+## Domestic driving estimate
+
+- Provider: [高德 Web 服务 API](https://lbs.amap.com/api/webservice/guide/api/newroute)
+- Worker endpoint: `POST /api/route/driving`
+- Upstream endpoint: `https://restapi.amap.com/v5/direction/driving`
+- Scope: 中国境内起点到中国城市目的地；海外坐标会被拒绝，不会请求路线服务
+- Strategy: `strategy=32`, `ferry=1`, `show_fields=cost`
+- Secret: `AMAP_WEB_KEY` is stored with `wrangler secret put AMAP_WEB_KEY`; it is never bundled into
+  client JavaScript or committed to GitHub.
+
+The browser's WGS84 location is converted inside the Worker before the request. The destination
+coordinates are the AMap-compatible city centers bundled in `public/data/cities.json`. The UI only
+requests a route after the user clicks the estimate button, and labels the result as an estimate.
+Routes are not cached because live traffic and provider policy can change; upstream errors are
+returned as localized, retryable messages without exposing the provider key or raw response.

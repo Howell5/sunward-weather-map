@@ -58,6 +58,45 @@ describe("CityDetails", () => {
     expect(screen.getByText("无雨")).toBeInTheDocument();
   });
 
+  it("offers a domestic driving estimate from the user's location", async () => {
+    const onEstimateDriving = vi.fn();
+    const onLocate = vi.fn();
+    const user = userEvent.setup();
+    render(
+      <CityDetails
+        city={city}
+        weather={weather}
+        isLoadingDetail={false}
+        detailError={null}
+        drivingStatus="idle"
+        hasDrivingOrigin
+        onEstimateDriving={onEstimateDriving}
+        onLocate={onLocate}
+      />,
+    );
+    await user.click(screen.getByRole("button", { name: "估算驾车时间" }));
+    expect(onEstimateDriving).toHaveBeenCalledOnce();
+    expect(screen.getByText("从我的位置出发 · 仅中国境内")).toBeInTheDocument();
+  });
+
+  it("asks for location before estimating a route", async () => {
+    const onLocate = vi.fn();
+    const user = userEvent.setup();
+    render(
+      <CityDetails
+        city={city}
+        weather={weather}
+        isLoadingDetail={false}
+        detailError={null}
+        hasDrivingOrigin={false}
+        onEstimateDriving={vi.fn()}
+        onLocate={onLocate}
+      />,
+    );
+    await user.click(screen.getByRole("button", { name: "使用我的位置" }));
+    expect(onLocate).toHaveBeenCalledOnce();
+  });
+
   it("explains an active filter mismatch and retries detail data", async () => {
     const onRetryDetail = vi.fn();
     const user = userEvent.setup();

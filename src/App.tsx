@@ -7,6 +7,7 @@ import { ChinaWeatherMap, type MapHandle } from "./components/map/ChinaWeatherMa
 import { MapControls } from "./components/map/MapControls";
 import { MapLegend } from "./components/map/MapLegend";
 import { useCityDetail } from "./hooks/useCityDetail";
+import { useDrivingEstimate } from "./hooks/useDrivingEstimate";
 import { useGeolocation } from "./hooks/useGeolocation";
 import { useWeatherDataset } from "./hooks/useWeatherDataset";
 import { nearestCity } from "./lib/map/nearestCity";
@@ -28,6 +29,10 @@ function formatUpdateTime(value: string | null) {
     hour: "2-digit",
     minute: "2-digit",
   }).format(new Date(value));
+}
+
+function isDomesticCoordinate(latitude: number, longitude: number) {
+  return latitude >= 15 && latitude <= 55 && longitude >= 70 && longitude <= 138;
 }
 
 function App() {
@@ -77,6 +82,14 @@ function App() {
   const selectedSummary = (selectedCityId && weather.weatherByCity[selectedCityId]) || null;
   const cityDetail = useCityDetail(selectedCity, selectedSummary);
   const geolocation = useGeolocation();
+  const drivingOrigin =
+    geolocation.location &&
+    isDomesticCoordinate(geolocation.location.latitude, geolocation.location.longitude)
+      ? geolocation.location
+      : null;
+  const driving = useDrivingEstimate(selectedCity, drivingOrigin);
+  const drivingOriginMessage =
+    geolocation.location && !drivingOrigin ? "当前定位不在中国境内，首版不提供自驾估算。" : null;
 
   const selectCity = useCallback((city: City, focusMap = false) => {
     if (document.activeElement instanceof HTMLElement) {
@@ -286,6 +299,14 @@ function App() {
             filterNotice={filterNotice}
             onRetryDetail={cityDetail.retry}
             onRetryWeather={weather.refresh}
+            drivingStatus={driving.status}
+            drivingEstimate={driving.estimate}
+            drivingError={driving.error}
+            hasDrivingOrigin={Boolean(drivingOrigin)}
+            drivingOriginMessage={drivingOriginMessage}
+            locationStatus={geolocation.status}
+            onEstimateDriving={driving.calculate}
+            onLocate={geolocation.locate}
             onClose={closeDetails}
           />
         )}

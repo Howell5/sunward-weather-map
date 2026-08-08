@@ -646,8 +646,10 @@ a:focus-visible {
 
 .details-panel {
   position: relative;
+  display: flex;
+  flex-direction: column;
   min-width: 0;
-  overflow: hidden auto;
+  overflow: hidden;
   border: 1px solid rgba(34, 63, 54, 0.12);
   border-radius: 26px;
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.58), transparent 20%), var(--paper);
@@ -691,6 +693,10 @@ a:focus-visible {
 }
 
 .city-details {
+  flex: 1;
+  min-height: 0;
+  overflow-y: auto;
+  overscroll-behavior: contain;
   padding: 30px 26px 24px;
 }
 
@@ -702,7 +708,7 @@ a:focus-visible {
 }
 
 .city-heading p,
-.details-empty p {
+.details-empty > p {
   margin: 0 0 4px;
   color: #77827d;
   font-size: 11px;
@@ -949,6 +955,143 @@ a:focus-visible {
   line-height: 1.45;
 }
 
+.driving-section {
+  margin-top: 24px;
+  padding-top: 18px;
+  border-top: 1px solid var(--line);
+}
+
+.driving-section-heading {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.driving-section-heading h3 {
+  margin: 0;
+  font-size: 14px;
+  letter-spacing: 0.04em;
+}
+
+.driving-section-heading span {
+  display: block;
+  margin-top: 4px;
+  color: #77827d;
+  font-size: 10px;
+}
+
+.driving-section-heading > svg {
+  width: 18px;
+  color: #4f7b6b;
+}
+
+.driving-prompt,
+.driving-result,
+.driving-error {
+  display: grid;
+  gap: 10px;
+  margin-top: 13px;
+  padding: 12px;
+  border: 1px solid rgba(73, 116, 96, 0.14);
+  border-radius: 12px;
+  background: rgba(73, 116, 96, 0.045);
+}
+
+.driving-prompt p,
+.driving-error span {
+  margin: 0;
+  color: #66766e;
+  font-size: 11px;
+  line-height: 1.45;
+}
+
+.driving-prompt button,
+.driving-action,
+.driving-result button,
+.driving-error button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  justify-self: start;
+  gap: 6px;
+  padding: 8px 10px;
+  border: 1px solid rgba(73, 116, 96, 0.24);
+  border-radius: 8px;
+  color: #315f4e;
+  background: rgba(73, 116, 96, 0.08);
+  font: inherit;
+  font-size: 10px;
+  cursor: pointer;
+}
+
+.driving-prompt button:hover,
+.driving-action:hover,
+.driving-result button:hover,
+.driving-error button:hover {
+  background: rgba(73, 116, 96, 0.15);
+}
+
+.driving-prompt button:disabled {
+  cursor: wait;
+  opacity: 0.65;
+}
+
+.driving-prompt svg,
+.driving-action svg,
+.driving-status svg {
+  width: 14px;
+}
+
+.driving-action {
+  margin-top: 13px;
+}
+
+.driving-status {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin: 13px 0 0;
+  color: #65756d;
+  font-size: 11px;
+}
+
+.driving-result {
+  grid-template-columns: 1fr auto;
+  align-items: center;
+}
+
+.driving-result strong {
+  color: #264e3e;
+  font-family: "Avenir Next Condensed", "DIN Alternate", sans-serif;
+  font-size: 22px;
+}
+
+.driving-result > span {
+  color: #526a5f;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.driving-result small {
+  grid-column: 1 / -1;
+  color: #7b8982;
+  font-size: 9px;
+}
+
+.driving-result button {
+  grid-column: 1 / -1;
+}
+
+.driving-error {
+  border-color: rgba(157, 103, 75, 0.2);
+  background: rgba(157, 103, 75, 0.06);
+}
+
+.driving-error span {
+  color: #94634d;
+}
+
 .forecast-disclaimer {
   margin: 18px 0 0;
   color: #87908c;
@@ -963,7 +1106,7 @@ a:focus-visible {
   padding: 32px;
 }
 
-.details-empty span {
+.details-empty > span {
   margin-top: 16px;
   color: #77827d;
   font-size: 12px;

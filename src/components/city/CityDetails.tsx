@@ -1,4 +1,6 @@
-import { Droplets, Gauge, LoaderCircle, Wind } from "lucide-react";
+import { CarFront, Droplets, Gauge, LoaderCircle, Locate, Wind } from "lucide-react";
+import type { LocationStatus } from "../../hooks/useGeolocation";
+import type { DrivingEstimate, DrivingStatus } from "../../lib/route/types";
 import { longestDryStreak, weatherCodeLabel } from "../../lib/weather/dryness";
 import type { City, CityWeatherSummary } from "../../lib/weather/types";
 import { WeatherGlyph } from "./WeatherGlyph";
@@ -11,6 +13,14 @@ interface CityDetailsProps {
   filterNotice?: string | null;
   onRetryDetail?: () => void;
   onRetryWeather?: () => void;
+  drivingStatus?: DrivingStatus;
+  drivingEstimate?: DrivingEstimate | null;
+  drivingError?: string | null;
+  hasDrivingOrigin?: boolean;
+  drivingOriginMessage?: string | null;
+  locationStatus?: LocationStatus;
+  onEstimateDriving?: () => void;
+  onLocate?: () => void;
 }
 
 function metric(value: number | null | undefined, suffix: string) {
@@ -26,6 +36,109 @@ function dateLabel(date: string, index: number) {
   }).format(new Date(`${date}T12:00:00+08:00`));
 }
 
+function formatDrivingDuration(seconds: number) {
+  const minutes = Math.max(1, Math.round(seconds / 60));
+  if (minutes < 60) return `约 ${minutes} 分钟`;
+  const hours = Math.floor(minutes / 60);
+  const remainder = minutes % 60;
+  return remainder === 0 ? `约 ${hours} 小时` : `约 ${hours} 小时 ${remainder} 分钟`;
+}
+
+function formatDrivingDistance(meters: number) {
+  if (meters < 1000) return `${Math.round(meters)} m`;
+  return `${(meters / 1000).toFixed(meters >= 10000 ? 0 : 1)} km`;
+}
+
+interface DrivingEstimateSectionProps {
+  status: DrivingStatus;
+  estimate: DrivingEstimate | null;
+  error: string | null;
+  hasOrigin: boolean;
+  originMessage: string | null;
+  locationStatus: LocationStatus;
+  onEstimate: () => void;
+  onLocate: () => void;
+}
+
+function DrivingEstimateSection({
+  status,
+  estimate,
+  error,
+  hasOrigin,
+  originMessage,
+  locationStatus,
+  onEstimate,
+  onLocate,
+}: DrivingEstimateSectionProps) {
+  return (
+    <section className="driving-section" aria-label="中国境内自驾估算">
+      <div className="driving-section-heading">
+        <div>
+          <h3>自驾估算</h3>
+          <span>从我的位置出发 · 仅中国境内</span>
+        </div>
+        <CarFront aria-hidden="true" />
+      </div>
+
+      {!hasOrigin && (
+        <div className="driving-prompt">
+          <p>{originMessage ?? "先定位当前位置，才能估算到这个城市的驾车时间。"}</p>
+          <button type="button" onClick={onLocate} disabled={locationStatus === "requesting"}>
+            {locationStatus === "requesting" ? (
+              <LoaderCircle className="spin" aria-hidden="true" />
+            ) : (
+              <Locate aria-hidden="true" />
+            )}
+            {locationStatus === "requesting" ? "正在定位" : "使用我的位置"}
+          </button>
+        </div>
+      )}
+
+      {hasOrigin && status === "idle" && (
+        <button type="button" className="driving-action" onClick={onEstimate}>
+          <CarFront aria-hidden="true" />
+          估算驾车时间
+        </button>
+      )}
+
+      {hasOrigin && status === "loading" && (
+        <p className="driving-status">
+          <LoaderCircle className="spin" aria-hidden="true" />
+          正在查询高德路线
+        </p>
+      )}
+
+      {status === "success" && estimate && (
+        <div className="driving-result">
+          <strong>{formatDrivingDuration(estimate.durationSeconds)}</strong>
+          <span>{formatDrivingDistance(estimate.distanceMeters)}</span>
+          <small>
+            高德路线估算 ·{" "}
+            {new Date(estimate.fetchedAt).toLocaleTimeString("zh-CN", {
+              hour: "2-digit",
+              minute: "2-digit",
+            })}
+          </small>
+          <button type="button" onClick={onEstimate}>
+            重新估算
+          </button>
+        </div>
+      )}
+
+      {status === "error" && error && (
+        <div className="driving-error" role="alert">
+          <span>{error}</span>
+          {hasOrigin && (
+            <button type="button" onClick={onEstimate}>
+              重试
+            </button>
+          )}
+        </div>
+      )}
+    </section>
+  );
+}
+
 export function CityDetails({
   city,
   weather,
@@ -34,7 +147,29 @@ export function CityDetails({
   filterNotice,
   onRetryDetail,
   onRetryWeather,
+  drivingStatus = "idle",
+  drivingEstimate = null,
+  drivingError = null,
+  hasDrivingOrigin = false,
+  drivingOriginMessage = null,
+  locationStatus = "idle",
+  onEstimateDriving,
+  onLocate,
 }: CityDetailsProps) {
+  const drivingSection =
+    onEstimateDriving && onLocate ? (
+      <DrivingEstimateSection
+        status={drivingStatus}
+        estimate={drivingEstimate}
+        error={drivingError}
+        hasOrigin={hasDrivingOrigin}
+        originMessage={drivingOriginMessage}
+        locationStatus={locationStatus}
+        onEstimate={onEstimateDriving}
+        onLocate={onLocate}
+      />
+    ) : null;
+
   if (!weather || weather.status === "error" || weather.status === "unknown") {
     const message =
       weather?.status === "error"
@@ -43,7 +178,7 @@ export function CityDetails({
           ? "这座城市暂时没有足够的天气字段，无法判断是否无雨。"
           : "这个城市的天气数据暂未返回。";
     return (
-      <div className="details-empty">
+      <div className="city-details details-empty">
         <h2>{city.shortName}</h2>
         <p>{city.province}</p>
         <span>{message}</span>
@@ -52,6 +187,7 @@ export function CityDetails({
             重试天气
           </button>
         )}
+        {drivingSection}
       </div>
     );
   }
@@ -151,6 +287,8 @@ export function CityDetails({
           </p>
         )}
       </section>
+
+      {drivingSection}
 
       <p className="forecast-disclaimer">
         “无雨”指预计日降水量低于 0.2 mm 且降水不超过 1 小时，并非天气承诺。

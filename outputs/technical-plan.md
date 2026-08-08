@@ -14,7 +14,7 @@ origin: docs/brainstorms/2026-08-07-china-weather-map-requirements.md
 七日总览，全国城市以天气点呈现，主要城市显示名称和 `x/7` 无雨天数；用户可切换
 当前或单日、突出无雨、搜索和定位城市，并打开城市七天天气详情。
 
-产品只呈现客观地图与天气信息，不提供目的地推荐、旅游内容或交通能力
+产品只呈现客观地图与天气信息，不提供目的地推荐、旅游内容或综合交通规划；城市详情允许按需查询中国境内驾车估算
 （见 origin: `docs/brainstorms/2026-08-07-china-weather-map-requirements.md`）。
 
 ## Problem Frame
@@ -36,7 +36,7 @@ origin: docs/brainstorms/2026-08-07-china-weather-map-requirements.md
 ## Scope Boundaries
 
 - 不实现 AI、推荐、排名、旅行评分、景点或行程。
-- 不实现驾车、高铁、航班、票价或任何交通跳转。
+- 不实现海外驾车、高铁、航班、票价或任何交通跳转；仅在中国城市详情中按需调用高德驾车估算。
 - 不实现后端账户、持久化用户数据、通知或分享。
 - 不实现天气雷达、分钟级降水、台风或专业气象能力。
 - 不实现海外地图；第一版只呈现中国全国视图。
@@ -96,7 +96,7 @@ origin: docs/brainstorms/2026-08-07-china-weather-map-requirements.md
 - “当前天气”语义：Open-Meteo 15 分钟模型当前值，不表述为气象站实测。
 - 七日温度表达：地图标签只显示 `x/7`；Tooltip 展示七日最低至最高温区间。
 - 筛选文案：使用“突出无雨”，因为其他城市只是淡出，不会消失。
-- 当前位置作用：只显示我的位置、居中并选择最近的受支持城市；不形成出发地或交通
+- 当前位置作用：显示我的位置、居中并选择最近的受支持城市；中国境内定位可作为自驾估算起点，不上传或持久化
   状态，且仅在点击定位按钮后请求权限。
 - 移动点按：单击城市直接选择并打开底部详情，不设置双阶段 Hover 流程。
 - 天气数据失败：按城市/批次保持 `fresh | stale | error | unknown`，成功数据继续显示。
@@ -320,7 +320,7 @@ flowchart TB
 - **Integration coverage:** fixture 覆盖 Provider → normalize → map/detail 的完整链；
   ego-browser 验证 Canvas 与真实 DOM 控件协同。
 - **Unchanged invariants:** 任何数据失败都不改变城市静态清单；筛选永远不删除城市；
-  第一版不产生推荐或交通状态。
+  不产生推荐或综合交通规划；自驾只在用户点击后对中国境内城市发起单次可重试查询。
 
 ## Risks & Dependencies
 
