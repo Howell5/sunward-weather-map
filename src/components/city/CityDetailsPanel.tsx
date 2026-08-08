@@ -1,7 +1,7 @@
 import { Maximize2, Minimize2, X } from "lucide-react";
 import { useEffect, useState } from "react";
 import type { LocationStatus } from "../../hooks/useGeolocation";
-import type { DrivingEstimate, DrivingStatus } from "../../lib/route/types";
+import type { DrivingEstimate, DrivingOriginSource, DrivingStatus } from "../../lib/route/types";
 import type { City, CityWeatherSummary } from "../../lib/weather/types";
 import { CityDetails } from "./CityDetails";
 
@@ -18,9 +18,14 @@ interface CityDetailsPanelProps {
   drivingError?: string | null;
   hasDrivingOrigin?: boolean;
   drivingOriginMessage?: string | null;
+  drivingOriginLabel?: string | null;
+  drivingOriginSource?: DrivingOriginSource | null;
+  drivingCities?: City[];
   locationStatus?: LocationStatus;
   onEstimateDriving?: () => void;
   onLocate?: () => void;
+  onUseAutomaticOrigin?: () => void;
+  onSelectDrivingOrigin?: (city: City) => void;
   onClose: () => void;
 }
 

@@ -11,3 +11,4 @@ export interface DrivingEstimate {
 }
 
 export type DrivingStatus = "idle" | "loading" | "success" | "error";
+export type DrivingOriginSource = "automatic" | "manual";

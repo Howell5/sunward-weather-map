@@ -48,6 +48,7 @@ function App() {
   const [locatedCityId, setLocatedCityId] = useState<string | null>(null);
   const [detailOpen, setDetailOpen] = useState(false);
   const [notice, setNotice] = useState<string | null>(null);
+  const [manualDrivingOrigin, setManualDrivingOrigin] = useState<City | null>(null);
   const mapRef = useRef<MapHandle>(null);
   const detailTriggerRef = useRef<HTMLElement | null>(null);
 
@@ -82,14 +83,31 @@ function App() {
   const selectedSummary = (selectedCityId && weather.weatherByCity[selectedCityId]) || null;
   const cityDetail = useCityDetail(selectedCity, selectedSummary);
   const geolocation = useGeolocation();
-  const drivingOrigin =
+  const automaticDrivingOrigin =
     geolocation.location &&
     isDomesticCoordinate(geolocation.location.latitude, geolocation.location.longitude)
       ? geolocation.location
       : null;
+  const drivingOrigin = manualDrivingOrigin
+    ? { latitude: manualDrivingOrigin.latitude, longitude: manualDrivingOrigin.longitude }
+    : automaticDrivingOrigin;
   const driving = useDrivingEstimate(selectedCity, drivingOrigin);
   const drivingOriginMessage =
-    geolocation.location && !drivingOrigin ? "当前定位不在中国境内，首版不提供自驾估算。" : null;
+    !manualDrivingOrigin && geolocation.location && !automaticDrivingOrigin
+      ? "当前定位不在中国境内，首版不提供自驾估算。"
+      : null;
+  const drivingOriginSource = manualDrivingOrigin ? "manual" : drivingOrigin ? "automatic" : null;
+  const drivingOriginLabel = manualDrivingOrigin ? manualDrivingOrigin.shortName : "当前位置";
+
+  const useAutomaticDrivingOrigin = useCallback(() => {
+    setManualDrivingOrigin(null);
+    geolocation.locate();
+  }, [geolocation.locate]);
+
+  const selectDrivingOrigin = useCallback((city: City) => {
+    setManualDrivingOrigin(city);
+    setNotice(`自驾起点已设为 ${city.shortName}`);
+  }, []);
 
   const selectCity = useCallback((city: City, focusMap = false) => {
     if (document.activeElement instanceof HTMLElement) {
@@ -242,7 +260,7 @@ function App() {
               onDryWindowDaysChange={setDryWindowDays}
               onSelectCity={(city) => selectCity(city, true)}
               locationStatus={geolocation.status}
-              onLocate={geolocation.locate}
+              onLocate={useAutomaticDrivingOrigin}
               isRefreshing={weather.isRefreshing}
               onRefresh={weather.refresh}
             />
@@ -304,9 +322,14 @@ function App() {
             drivingError={driving.error}
             hasDrivingOrigin={Boolean(drivingOrigin)}
             drivingOriginMessage={drivingOriginMessage}
+            drivingOriginLabel={drivingOriginLabel}
+            drivingOriginSource={drivingOriginSource}
+            drivingCities={cities}
             locationStatus={geolocation.status}
             onEstimateDriving={driving.calculate}
-            onLocate={geolocation.locate}
+            onLocate={useAutomaticDrivingOrigin}
+            onUseAutomaticOrigin={useAutomaticDrivingOrigin}
+            onSelectDrivingOrigin={selectDrivingOrigin}
             onClose={closeDetails}
           />
         )}

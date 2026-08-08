@@ -5,6 +5,9 @@ import type { City } from "../../lib/weather/types";
 interface CitySearchProps {
   cities: City[];
   onSelect: (city: City) => void;
+  className?: string;
+  placeholder?: string;
+  ariaLabel?: string;
 }
 
 function normalize(value: string) {
@@ -14,7 +17,13 @@ function normalize(value: string) {
     .replace(/[市区县自治州地区盟特别行政省]/gu, "");
 }
 
-export function CitySearch({ cities, onSelect }: CitySearchProps) {
+export function CitySearch({
+  cities,
+  onSelect,
+  className,
+  placeholder = "搜索城市",
+  ariaLabel = "搜索城市",
+}: CitySearchProps) {
   const [query, setQuery] = useState("");
   const [activeIndex, setActiveIndex] = useState(0);
   const [focused, setFocused] = useState(false);
@@ -40,7 +49,7 @@ export function CitySearch({ cities, onSelect }: CitySearchProps) {
   };
 
   return (
-    <div className="city-search">
+    <div className={className ? `city-search ${className}` : "city-search"}>
       <Search aria-hidden="true" />
       <input
         value={query}
@@ -71,9 +80,9 @@ export function CitySearch({ cities, onSelect }: CitySearchProps) {
             setFocused(false);
           }
         }}
-        placeholder="搜索城市"
+        placeholder={placeholder}
         role="combobox"
-        aria-label="搜索城市"
+        aria-label={ariaLabel}
         aria-autocomplete="list"
         aria-expanded={focused && results.length > 0}
         aria-controls="city-search-results"

@@ -76,7 +76,7 @@ describe("CityDetails", () => {
     );
     await user.click(screen.getByRole("button", { name: "估算驾车时间" }));
     expect(onEstimateDriving).toHaveBeenCalledOnce();
-    expect(screen.getByText("从我的位置出发 · 仅中国境内")).toBeInTheDocument();
+    expect(screen.getByText("自动定位或输入中国城市 · 仅中国境内")).toBeInTheDocument();
   });
 
   it("asks for location before estimating a route", async () => {
@@ -93,8 +93,31 @@ describe("CityDetails", () => {
         onLocate={onLocate}
       />,
     );
-    await user.click(screen.getByRole("button", { name: "使用我的位置" }));
+    await user.click(screen.getByRole("button", { name: "使用自动定位" }));
     expect(onLocate).toHaveBeenCalledOnce();
+  });
+
+  it("allows a city to be used as a manual driving origin", async () => {
+    const onSelectDrivingOrigin = vi.fn();
+    const user = userEvent.setup();
+    render(
+      <CityDetails
+        city={city}
+        weather={weather}
+        isLoadingDetail={false}
+        detailError={null}
+        drivingCities={[city]}
+        hasDrivingOrigin={false}
+        onEstimateDriving={vi.fn()}
+        onLocate={vi.fn()}
+        onSelectDrivingOrigin={onSelectDrivingOrigin}
+      />,
+    );
+
+    await user.type(screen.getByRole("combobox", { name: "手动设置出发城市" }), "上海");
+    await user.click(screen.getByRole("option", { name: /上海/ }));
+
+    expect(onSelectDrivingOrigin).toHaveBeenCalledWith(city);
   });
 
   it("explains an active filter mismatch and retries detail data", async () => {

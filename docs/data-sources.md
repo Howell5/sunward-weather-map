@@ -35,8 +35,10 @@ paid endpoint and re-check the current provider terms.
 - Secret: `AMAP_WEB_KEY` is stored with `wrangler secret put AMAP_WEB_KEY`; it is never bundled into
   client JavaScript or committed to GitHub.
 
-The browser's WGS84 location is converted inside the Worker before the request. The destination
-coordinates are the AMap-compatible city centers bundled in `public/data/cities.json`. The UI only
-requests a route after the user clicks the estimate button, and labels the result as an estimate.
+The browser's WGS84 location is converted inside the Worker before the request. If location
+permission is unavailable, the UI lets the user choose a Chinese city manually; that city's bundled
+AMap-compatible center becomes the approximate origin. Destination coordinates are the same city
+centers from `public/data/cities.json`. The UI only requests a route after the user clicks the
+estimate button, and labels the result as an estimate.
 Routes are not cached because live traffic and provider policy can change; upstream errors are
 returned as localized, retryable messages without exposing the provider key or raw response.

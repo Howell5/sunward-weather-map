@@ -1,8 +1,9 @@
 import { CarFront, Droplets, Gauge, LoaderCircle, Locate, Wind } from "lucide-react";
 import type { LocationStatus } from "../../hooks/useGeolocation";
-import type { DrivingEstimate, DrivingStatus } from "../../lib/route/types";
+import type { DrivingEstimate, DrivingOriginSource, DrivingStatus } from "../../lib/route/types";
 import { longestDryStreak, weatherCodeLabel } from "../../lib/weather/dryness";
 import type { City, CityWeatherSummary } from "../../lib/weather/types";
+import { CitySearch } from "../controls/CitySearch";
 import { WeatherGlyph } from "./WeatherGlyph";
 
 interface CityDetailsProps {
@@ -18,9 +19,14 @@ interface CityDetailsProps {
   drivingError?: string | null;
   hasDrivingOrigin?: boolean;
   drivingOriginMessage?: string | null;
+  drivingOriginLabel?: string | null;
+  drivingOriginSource?: DrivingOriginSource | null;
+  drivingCities?: City[];
   locationStatus?: LocationStatus;
   onEstimateDriving?: () => void;
   onLocate?: () => void;
+  onUseAutomaticOrigin?: () => void;
+  onSelectDrivingOrigin?: (city: City) => void;
 }
 
 function metric(value: number | null | undefined, suffix: string) {
@@ -55,9 +61,14 @@ interface DrivingEstimateSectionProps {
   error: string | null;
   hasOrigin: boolean;
   originMessage: string | null;
+  originLabel: string | null;
+  originSource: DrivingOriginSource | null;
+  cities: City[];
   locationStatus: LocationStatus;
   onEstimate: () => void;
   onLocate: () => void;
+  onUseAutomaticOrigin: () => void;
+  onSelectOrigin: (city: City) => void;
 }
 
 function DrivingEstimateSection({
@@ -66,31 +77,74 @@ function DrivingEstimateSection({
   error,
   hasOrigin,
   originMessage,
+  originLabel,
+  originSource,
+  cities,
   locationStatus,
   onEstimate,
   onLocate,
+  onUseAutomaticOrigin,
+  onSelectOrigin,
 }: DrivingEstimateSectionProps) {
+  const canSetManualOrigin = cities.length > 0;
+
   return (
     <section className="driving-section" aria-label="中国境内自驾估算">
       <div className="driving-section-heading">
         <div>
           <h3>自驾估算</h3>
-          <span>从我的位置出发 · 仅中国境内</span>
+          <span>自动定位或输入中国城市 · 仅中国境内</span>
         </div>
         <CarFront aria-hidden="true" />
       </div>
 
       {!hasOrigin && (
         <div className="driving-prompt">
-          <p>{originMessage ?? "先定位当前位置，才能估算到这个城市的驾车时间。"}</p>
-          <button type="button" onClick={onLocate} disabled={locationStatus === "requesting"}>
-            {locationStatus === "requesting" ? (
-              <LoaderCircle className="spin" aria-hidden="true" />
-            ) : (
-              <Locate aria-hidden="true" />
+          <p>{originMessage ?? "先定位当前位置，或输入一个中国城市作为出发点。"}</p>
+          <div className="driving-origin-actions">
+            <button type="button" onClick={onLocate} disabled={locationStatus === "requesting"}>
+              {locationStatus === "requesting" ? (
+                <LoaderCircle className="spin" aria-hidden="true" />
+              ) : (
+                <Locate aria-hidden="true" />
+              )}
+              {locationStatus === "requesting" ? "正在定位" : "使用自动定位"}
+            </button>
+            {canSetManualOrigin && (
+              <CitySearch
+                cities={cities}
+                onSelect={onSelectOrigin}
+                className="driving-origin-search"
+                placeholder="输入出发城市"
+                ariaLabel="手动设置出发城市"
+              />
             )}
-            {locationStatus === "requesting" ? "正在定位" : "使用我的位置"}
-          </button>
+          </div>
+        </div>
+      )}
+
+      {hasOrigin && (
+        <div className="driving-origin-set">
+          <div className="driving-origin-summary">
+            <span>出发点</span>
+            <strong>{originLabel ?? "当前位置"}</strong>
+            <small>{originSource === "manual" ? "手动选择 · 按城市中心估算" : "自动定位"}</small>
+          </div>
+          <div className="driving-origin-actions">
+            <button type="button" className="driving-origin-auto" onClick={onUseAutomaticOrigin}>
+              <Locate aria-hidden="true" />
+              {originSource === "manual" ? "改用自动定位" : "重新定位"}
+            </button>
+            {canSetManualOrigin && (
+              <CitySearch
+                cities={cities}
+                onSelect={onSelectOrigin}
+                className="driving-origin-search"
+                placeholder="更换出发城市"
+                ariaLabel="更换出发城市"
+              />
+            )}
+          </div>
         </div>
       )}
 
@@ -108,7 +162,7 @@ function DrivingEstimateSection({
         </p>
       )}
 
-      {status === "success" && estimate && (
+      {hasOrigin && status === "success" && estimate && (
         <div className="driving-result">
           <strong>{formatDrivingDuration(estimate.durationSeconds)}</strong>
           <span>{formatDrivingDistance(estimate.distanceMeters)}</span>
@@ -125,7 +179,7 @@ function DrivingEstimateSection({
         </div>
       )}
 
-      {status === "error" && error && (
+      {hasOrigin && status === "error" && error && (
         <div className="driving-error" role="alert">
           <span>{error}</span>
           {hasOrigin && (
@@ -152,10 +206,17 @@ export function CityDetails({
   drivingError = null,
   hasDrivingOrigin = false,
   drivingOriginMessage = null,
+  drivingOriginLabel = null,
+  drivingOriginSource = null,
+  drivingCities = [],
   locationStatus = "idle",
   onEstimateDriving,
   onLocate,
+  onUseAutomaticOrigin,
+  onSelectDrivingOrigin,
 }: CityDetailsProps) {
+  const handleUseAutomaticOrigin = onUseAutomaticOrigin ?? onLocate ?? (() => undefined);
+  const handleSelectDrivingOrigin = onSelectDrivingOrigin ?? (() => undefined);
   const drivingSection =
     onEstimateDriving && onLocate ? (
       <DrivingEstimateSection
@@ -164,9 +225,14 @@ export function CityDetails({
         error={drivingError}
         hasOrigin={hasDrivingOrigin}
         originMessage={drivingOriginMessage}
+        originLabel={drivingOriginLabel}
+        originSource={drivingOriginSource}
+        cities={drivingCities}
         locationStatus={locationStatus}
         onEstimate={onEstimateDriving}
         onLocate={onLocate}
+        onUseAutomaticOrigin={handleUseAutomaticOrigin}
+        onSelectOrigin={handleSelectDrivingOrigin}
       />
     ) : null;
 
