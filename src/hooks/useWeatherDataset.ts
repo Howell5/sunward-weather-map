@@ -43,6 +43,15 @@ export function useWeatherDataset(cities: City[], version: string) {
   const [state, setState] = useState<WeatherDatasetState>(INITIAL_STATE);
   const requestRef = useRef(0);
   const failedCityIdsRef = useRef<string[]>([]);
+  const cityKey = cities.map((city) => city.id).join(",");
+  const resetKey = `${version}:${cityKey}`;
+
+  useEffect(() => {
+    if (!resetKey) return;
+    requestRef.current += 1;
+    failedCityIdsRef.current = [];
+    setState({ ...INITIAL_STATE, totalCount: cities.length });
+  }, [cities.length, resetKey]);
 
   const refresh = useCallback(
     async (options: { force?: boolean; signal?: AbortSignal; cityIds?: string[] } = {}) => {

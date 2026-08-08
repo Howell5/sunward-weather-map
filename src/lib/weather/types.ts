@@ -8,7 +8,10 @@ export interface City {
   latitude: number;
   importance: number;
   aliases: string[];
+  region?: CityRegion;
 }
+
+export type CityRegion = "china" | "nearby" | "overseas";
 
 export interface CityDataset {
   version: string;
@@ -51,6 +54,7 @@ export interface CityWeatherSummary {
   dryDays: number;
   availableDays: number;
   fetchedAt: string;
+  timezone?: string;
 }
 
 export interface WeatherDatasetState {

@@ -37,9 +37,9 @@ function dateLabel(date: string, index: number) {
   if (index === 0) return "今天";
   if (index === 1) return "明天";
   return new Intl.DateTimeFormat("zh-CN", {
-    timeZone: "Asia/Shanghai",
+    timeZone: "UTC",
     weekday: "short",
-  }).format(new Date(`${date}T12:00:00+08:00`));
+  }).format(new Date(`${date}T00:00:00Z`));
 }
 
 function formatDrivingDuration(seconds: number) {

@@ -18,6 +18,7 @@ function city(index: number): City {
 
 function payload() {
   return {
+    timezone: "Asia/Tokyo",
     current: {
       time: "2026-08-07T12:00",
       temperature_2m: 28,
@@ -67,5 +68,7 @@ describe("fetchWeatherSummaries", () => {
     expect(result.failedCityIds).toEqual(["50"]);
     expect(result.failedBatchCount).toBe(1);
     expect(fetchMock).toHaveBeenCalledTimes(3);
+    expect(String(fetchMock.mock.calls[0][0])).toContain("timezone=auto");
+    expect(result.weatherByCity["0"].timezone).toBe("Asia/Tokyo");
   });
 });

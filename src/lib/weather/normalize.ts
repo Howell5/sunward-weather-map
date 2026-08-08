@@ -23,6 +23,7 @@ interface OpenMeteoDaily {
 }
 
 export interface OpenMeteoSummaryResponse {
+  timezone?: string;
   current?: OpenMeteoCurrent;
   daily?: OpenMeteoDaily;
 }
@@ -78,6 +79,7 @@ export function normalizeSummary(
     dryDays: daily.filter((day) => day.isDry === true).length,
     availableDays,
     fetchedAt,
+    timezone: response.timezone,
   };
 }
 

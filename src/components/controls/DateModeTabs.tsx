@@ -4,12 +4,13 @@ import type { ViewMode } from "../../lib/weather/types";
 interface DateModeTabsProps {
   value: ViewMode;
   onChange: (mode: ViewMode) => void;
+  timeZone?: string;
 }
 
-function chinaDate(index: number) {
+function localDate(index: number, timeZone: string) {
   const parts = Object.fromEntries(
     new Intl.DateTimeFormat("en-CA", {
-      timeZone: "Asia/Shanghai",
+      timeZone,
       year: "numeric",
       month: "2-digit",
       day: "2-digit",
@@ -22,13 +23,13 @@ function chinaDate(index: number) {
   );
 }
 
-function dayLabel(index: number) {
+function dayLabel(index: number, timeZone: string) {
   if (index === 0) return "今天";
   if (index === 1) return "明天";
   return new Intl.DateTimeFormat("zh-CN", {
-    timeZone: "Asia/Shanghai",
+    timeZone,
     weekday: "short",
-  }).format(chinaDate(index));
+  }).format(localDate(index, timeZone));
 }
 
 function selected(value: ViewMode, candidate: ViewMode) {
@@ -38,7 +39,7 @@ function selected(value: ViewMode, candidate: ViewMode) {
   );
 }
 
-export function DateModeTabs({ value, onChange }: DateModeTabsProps) {
+export function DateModeTabs({ value, onChange, timeZone = "Asia/Shanghai" }: DateModeTabsProps) {
   const activeRef = useRef<HTMLButtonElement>(null);
   const activeKey = value.type === "day" ? `day-${value.dayIndex}` : value.type;
   useEffect(() => {
@@ -56,12 +57,12 @@ export function DateModeTabs({ value, onChange }: DateModeTabsProps) {
     { mode: { type: "now" }, label: "当前" },
     ...Array.from({ length: 7 }, (_, index) => ({
       mode: { type: "day", dayIndex: index } as ViewMode,
-      label: dayLabel(index),
+      label: dayLabel(index, timeZone),
       sublabel: new Intl.DateTimeFormat("zh-CN", {
-        timeZone: "Asia/Shanghai",
+        timeZone,
         month: "numeric",
         day: "numeric",
-      }).format(chinaDate(index)),
+      }).format(localDate(index, timeZone)),
     })),
     { mode: { type: "week" }, label: "7 日", sublabel: "总览" },
   ];

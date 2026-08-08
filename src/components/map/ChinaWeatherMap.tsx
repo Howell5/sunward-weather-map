@@ -21,6 +21,11 @@ export interface MapHandle {
 
 interface ChinaWeatherMapProps {
   geoJson: object;
+  mapName: string;
+  initialZoom: number;
+  initialCenter: [number, number] | null;
+  showRegions: boolean;
+  ariaLabel: string;
   cities: City[];
   weatherByCity: Record<string, CityWeatherSummary>;
   viewMode: ViewMode;
@@ -91,6 +96,11 @@ function formatTooltip(point: MapPoint, mode: ViewMode) {
 export const ChinaWeatherMap = forwardRef<MapHandle, ChinaWeatherMapProps>(function ChinaWeatherMap(
   {
     geoJson,
+    mapName,
+    initialZoom,
+    initialCenter,
+    showRegions,
+    ariaLabel,
     cities,
     weatherByCity,
     viewMode,
@@ -104,7 +114,7 @@ export const ChinaWeatherMap = forwardRef<MapHandle, ChinaWeatherMapProps>(funct
 ) {
   const containerRef = useRef<HTMLDivElement>(null);
   const chartRef = useRef<EChartsType | null>(null);
-  const [zoom, setZoom] = useState(1.15);
+  const [zoom, setZoom] = useState(initialZoom);
 
   useImperativeHandle(ref, () => ({
     zoomIn() {
@@ -118,8 +128,8 @@ export const ChinaWeatherMap = forwardRef<MapHandle, ChinaWeatherMapProps>(funct
       setZoom(nextZoom);
     },
     reset() {
-      chartRef.current?.setOption({ geo: { center: null, zoom: 1.15 } });
-      setZoom(1.15);
+      chartRef.current?.setOption({ geo: { center: initialCenter, zoom: initialZoom } });
+      setZoom(initialZoom);
     },
     focusCity(city) {
       chartRef.current?.setOption({
@@ -131,7 +141,8 @@ export const ChinaWeatherMap = forwardRef<MapHandle, ChinaWeatherMapProps>(funct
 
   useEffect(() => {
     if (!containerRef.current) return;
-    registerMap("china-weather", geoJson as never);
+    registerMap(mapName, geoJson as never);
+    setZoom(initialZoom);
     const chart = init(containerRef.current, undefined, { renderer: "canvas" });
     chartRef.current = chart;
     chart.setOption({
@@ -139,9 +150,10 @@ export const ChinaWeatherMap = forwardRef<MapHandle, ChinaWeatherMapProps>(funct
       animationDurationUpdate: 280,
       backgroundColor: "transparent",
       geo: {
-        map: "china-weather",
+        map: mapName,
         roam: true,
-        zoom: 1.15,
+        center: initialCenter,
+        zoom: initialZoom,
         scaleLimit: { min: 1, max: 7 },
         layoutCenter: ["49%", "50%"],
         layoutSize: "92%",
@@ -175,7 +187,7 @@ export const ChinaWeatherMap = forwardRef<MapHandle, ChinaWeatherMapProps>(funct
       chart.dispose();
       chartRef.current = null;
     };
-  }, [geoJson]);
+  }, [geoJson, initialCenter, initialZoom, mapName]);
 
   const points = useMemo<MapPoint[]>(
     () =>
@@ -206,8 +218,9 @@ export const ChinaWeatherMap = forwardRef<MapHandle, ChinaWeatherMapProps>(funct
   );
 
   const regionVisuals = useMemo(
-    () => buildRegionVisuals(cities, weatherByCity, geoJson, viewMode, dryHighlight),
-    [cities, dryHighlight, geoJson, viewMode, weatherByCity],
+    () =>
+      showRegions ? buildRegionVisuals(cities, weatherByCity, geoJson, viewMode, dryHighlight) : [],
+    [cities, dryHighlight, geoJson, showRegions, viewMode, weatherByCity],
   );
 
   useEffect(() => {
@@ -225,7 +238,7 @@ export const ChinaWeatherMap = forwardRef<MapHandle, ChinaWeatherMapProps>(funct
       }));
     chart.setOption({
       geo: {
-        regions: regionVisuals,
+        regions: showRegions ? regionVisuals : [],
       },
       tooltip: {
         trigger: "item",
@@ -291,14 +304,16 @@ export const ChinaWeatherMap = forwardRef<MapHandle, ChinaWeatherMapProps>(funct
     return () => {
       chart.off("click", handleClick);
     };
-  }, [dryHighlight, onSelectCity, points, regionVisuals, selectedCityId, viewMode, zoom]);
+  }, [
+    dryHighlight,
+    onSelectCity,
+    points,
+    regionVisuals,
+    selectedCityId,
+    showRegions,
+    viewMode,
+    zoom,
+  ]);
 
-  return (
-    <div
-      ref={containerRef}
-      className="china-weather-map"
-      role="img"
-      aria-label="中国全国城市天气地图，点击城市标签查看详情，也可使用搜索访问任一城市"
-    />
-  );
+  return <div ref={containerRef} className="weather-map" role="img" aria-label={ariaLabel} />;
 });

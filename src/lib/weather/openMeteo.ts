@@ -43,7 +43,7 @@ function summaryUrl(cities: City[]): string {
     longitude: cities.map((city) => city.longitude).join(","),
     current: SUMMARY_CURRENT,
     daily: SUMMARY_DAILY,
-    timezone: "Asia/Shanghai",
+    timezone: "auto",
     forecast_days: "7",
   });
   return `${API_URL}?${params}`;
@@ -139,7 +139,7 @@ export async function fetchCityHumidity(
     latitude: String(city.latitude),
     longitude: String(city.longitude),
     hourly: "relative_humidity_2m",
-    timezone: "Asia/Shanghai",
+    timezone: "auto",
     forecast_days: "7",
   });
   const response = await fetch(`${API_URL}?${params}`, { signal });

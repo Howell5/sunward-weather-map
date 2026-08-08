@@ -12,6 +12,19 @@ application has completed the map review and approval process required for a pub
 map in China. Before commercial launch, verify the source licence, national boundary expression,
 review number requirements, attribution, and update cadence, then replace these assets if needed.
 
+## Overseas weather map prototype
+
+- Boundary source: [Natural Earth Admin 0 Countries, 1:110m](https://www.naturalearthdata.com/downloads/110m-cultural-vectors/110m-admin-0-countries/)
+- Bundled file: `public/data/world.geojson`
+- Terms: Natural Earth states that its vector and raster data are public domain; the map is used as
+  a small-scale weather context layer, not as a legal or navigation boundary.
+- City source: `public/data/global-cities.json`, a curated MVP list covering East/Southeast/West
+  Asia, Russia and selected global cities. Coordinates are city centers and are for weather lookup.
+
+The range control has three modes: China, China + nearby, and Overseas. The overseas modes reuse the
+same Open-Meteo summary/detail fields and local timezone response, but deliberately do not render
+the domestic AMap driving module.
+
 ## Weather
 
 - Provider: [Open-Meteo](https://open-meteo.com/)
