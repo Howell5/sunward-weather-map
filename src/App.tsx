@@ -201,7 +201,7 @@ function App() {
             <CloudSun aria-hidden="true" />
           </span>
           <div>
-            <strong>晴域</strong>
+            <strong>Sunward</strong>
             <small>全国天气地图</small>
           </div>
         </div>

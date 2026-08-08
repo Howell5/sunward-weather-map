@@ -2,7 +2,7 @@
 name: cloudflare-domain-preference-2026-08-08
 description: 用户确认 Cloudflare 项目默认使用 wellhong.dev
 type: decision
-project: qingyu-weather-map
+project: sunward-weather-map
 status: active
 approved_by: user
 created_at: 2026-08-08

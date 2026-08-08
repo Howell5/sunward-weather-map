@@ -30,13 +30,13 @@ describe("weather cache", () => {
   });
 
   it("ignores malformed cache data", () => {
-    localStorage.setItem("qingyu:weather:v1:v1:2026-08-07", "{broken");
+    localStorage.setItem("sunward:weather:v1:v1:2026-08-07", "{broken");
     expect(readWeatherCache("v1", new Date("2026-08-07T02:00:00Z"))).toBeNull();
   });
 
   it("ignores structurally invalid cache data", () => {
     localStorage.setItem(
-      "qingyu:weather:v1:v1:2026-08-07",
+      "sunward:weather:v1:v1:2026-08-07",
       JSON.stringify({
         version: "v1",
         dateKey: "2026-08-07",

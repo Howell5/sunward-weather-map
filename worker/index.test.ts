@@ -6,7 +6,7 @@ const assets = { fetch: vi.fn(async () => new Response("asset")) };
 afterEach(() => vi.restoreAllMocks());
 
 function request(body: unknown) {
-  return new Request("https://qingyu.willhong.dev/api/route/driving", {
+  return new Request("https://sunward.willhong.dev/api/route/driving", {
     method: "POST",
     body: JSON.stringify(body),
     headers: { "content-type": "application/json" },

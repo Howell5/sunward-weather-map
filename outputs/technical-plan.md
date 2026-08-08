@@ -48,7 +48,7 @@ origin: docs/brainstorms/2026-08-07-china-weather-map-requirements.md
 
 - 工作区无既有代码模式，采用绿地结构。
 - Node.js 22、npm 与 Wrangler 已可用；本机 Wrangler OAuth 已确认登录 Cloudflare。
-- Cloudflare 账户中没有同名 `qingyu-weather-map` 项目，可创建独立 Worker。
+- Cloudflare 账户中没有同名 `sunward-weather-map` 项目，可创建独立 Worker；旧的 Qingyu Worker 入口保留兼容。
 
 ### External References
 
@@ -329,7 +329,7 @@ flowchart TB
 | 中国地图边界与审图合规 | 数据源单独记录、UI 标明原型；渲染与来源解耦，正式商业发布前替换/核验 |
 | Open-Meteo 免费端点非商业且无 SLA | 明确署名与个人原型定位；Provider 可替换，商业化改付费端点 |
 | 全国请求放大上游压力 | 50 城分批、并发 3、30 分钟缓存、部分失败重试；流量增长后加 Worker cache |
-| 中国大陆访问 workers.dev 或天气端点不稳定 | 保留错误/缓存状态；正式入口已绑定 `qingyu.willhong.dev`，继续评估数据服务可用性 |
+| 中国大陆访问 workers.dev 或天气端点不稳定 | 保留错误/缓存状态；正式入口已绑定 `sunward.willhong.dev`，旧的 `qingyu.willhong.dev` 保留兼容，继续评估数据服务可用性 |
 | 数百点与标签拥挤 | Canvas 普通 scatter、双系列标签、碰撞隐藏、缩放分档 |
 | 天气缺失导致错误无雨结论 | 缺字段始终 unknown；七日固定分母 7；UI 显示覆盖进度 |
 | 定位涉及隐私与权限 | 仅点击后请求，不上传或持久化坐标，失败不阻断 |

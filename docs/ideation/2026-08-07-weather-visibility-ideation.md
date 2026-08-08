@@ -8,7 +8,7 @@ focus: 让全国地图一眼看出哪里没有下雨
 
 ## Codebase Context
 
-「晴域」当前是 React + TypeScript + Vite + ECharts 的全国天气地图，约 370 个城市点。
+「Sunward」当前是 React + TypeScript + Vite + ECharts 的全国天气地图，约 370 个城市点。
 首屏为七日总览，点位颜色/形状表达晴雨状态，主要城市标签显示 `x/7`，并有“有晴窗”
 筛选、日期切换、城市搜索和详情面板。
 

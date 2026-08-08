@@ -2,7 +2,7 @@
 name: decision-cloudflare-domain-preference
 description: 用户确认的 Cloudflare 自定义域名优先级
 type: decision
-project: qingyu-weather-map
+project: sunward-weather-map
 status: active
 approved_by: user
 date: 2026-08-08

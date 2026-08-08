@@ -1,6 +1,6 @@
 import type { CityWeatherSummary, DataStatus } from "./types";
 
-const CACHE_PREFIX = "qingyu:weather:v1";
+const CACHE_PREFIX = "sunward:weather:v1";
 export const WEATHER_CACHE_FRESH_MS = 30 * 60 * 1000;
 
 interface CachePayload {

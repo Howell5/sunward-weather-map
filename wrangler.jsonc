@@ -1,6 +1,6 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "qingyu-weather-map",
+  "name": "sunward-weather-map",
   "main": "./worker/index.ts",
   "compatibility_date": "2026-08-07",
   "workers_dev": true,
@@ -11,6 +11,11 @@
     "not_found_handling": "single-page-application"
   },
   "routes": [
+    {
+      "pattern": "sunward.willhong.dev",
+      "zone_name": "willhong.dev",
+      "custom_domain": true
+    },
     {
       "pattern": "qingyu.willhong.dev",
       "zone_name": "willhong.dev",

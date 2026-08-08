@@ -38,7 +38,7 @@ const CAPITALS = new Set([
 
 async function fetchJson(url) {
   const response = await fetch(url, {
-    headers: { "user-agent": "qingyu-weather-map-data-preparer/0.1" },
+    headers: { "user-agent": "sunward-weather-map-data-preparer/0.1" },
   });
   if (!response.ok) {
     throw new Error(`Failed ${response.status}: ${url}`);

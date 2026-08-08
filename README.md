@@ -1,17 +1,18 @@
-# 晴域 · 全国天气地图
+# Sunward · 全国天气地图
 
 一张以全国视野查看当前与未来七天天气的中国地图。
 
-线上版本：<https://qingyu.willhong.dev>
+线上版本：<https://sunward.willhong.dev>
 
-备用预览地址：<https://qingyu-weather-map.haruhowell.workers.dev>
+备用预览地址：<https://sunward-weather-map.haruhowell.workers.dev>
+旧地址兼容入口：<https://qingyu.willhong.dev>
 
-![晴域地图预览](outputs/qingyu-region-highlight.png)
+![Sunward 地图预览](outputs/sunward-region-highlight.png)
 
 ## 它解决什么问题
 
 当一个城市未来几天持续下雨时，用户需要先快速看到“哪一大片区域更值得继续查看”，再点开
-具体城市了解天气。晴域只呈现机械、可核验的天气信息，不替用户做旅游推荐，也不包含路线、
+具体城市了解天气。Sunward 只呈现机械、可核验的天气信息，不替用户做旅游推荐，也不包含路线、
 高铁、航班或票价能力。
 
 ## 当前能力
@@ -53,7 +54,8 @@ GitHub Actions 会在 push 和 pull request 时自动运行同样的检查。
 
 项目使用 Cloudflare Workers Static Assets，无需单独后端。
 
-正式入口为 `https://qingyu.willhong.dev`；`workers.dev` 地址保留作回退和部署验证。
+正式入口为 `https://sunward.willhong.dev`；`https://qingyu.willhong.dev` 作为旧地址兼容入口，
+`workers.dev` 地址保留作回退和部署验证。
 
 ```bash
 npx wrangler login
@@ -62,7 +64,7 @@ npx wrangler deploy --dry-run
 npm run deploy
 ```
 
-发布配置位于 `wrangler.jsonc`，Worker 名称为 `qingyu-weather-map`。需要回滚时，
+发布配置位于 `wrangler.jsonc`，Worker 名称为 `sunward-weather-map`。需要回滚时，
 可在 Cloudflare 控制台的 Workers & Pages → Deployments 中选择上一版本。
 
 自驾估算只在用户点击后请求，路线密钥只作为 Cloudflare Secret 保存，不进入前端构建或公开仓库：
